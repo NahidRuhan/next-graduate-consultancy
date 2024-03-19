@@ -2,12 +2,14 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import canada from "@/public/assets/canada Flag-01.png"
-import uk from "@/public/assets/UK Flag-01.png"
-import usa from "@/public/assets/USA Flag-01.png"
-import canada2 from '@/public/assets/home/canada.jpg'
-import uk2 from "@/public/assets/home/uk.jpg"
-import usa2 from "@/public/assets/home/usa.jpg"
+// import canada from "@/public/assets/canada Flag-01.png"
+import canada from '../../public/assets/canada Flag-01.png'
+
+import uk from "../../public/assets/UK Flag-01.png"
+import usa from "../../public/assets/USA Flag-01.png"
+import canada2 from '../../public/assets/home/canada.jpg'
+import uk2 from "../../public/assets/home/uk.jpg"
+import usa2 from "../../public/assets/home/usa.jpg"
 
 const Country = () => {
     
