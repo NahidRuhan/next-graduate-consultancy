@@ -4,6 +4,7 @@ import Country from "@/components/home/Country";
 import HomeAbout from "@/components/home/HomeAbout";
 import HomePartner from "@/components/home/HomePartner";
 import HomeServices from "@/components/home/HomeServices";
+import Socials from "@/components/home/Socials";
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
             <HomeServices></HomeServices>
             <HomePartner></HomePartner>
             <AnimatedCount></AnimatedCount>
-            {/* <Socials></Socials> */}
+            <Socials></Socials>
         </div>
     );
 };
