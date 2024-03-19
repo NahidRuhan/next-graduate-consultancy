@@ -6,10 +6,10 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 // import logo from '@/public/assets/Logo.svg'
 import logo from '../../public/assets/Logo.svg'
-import canadaFlag from "../../public/assets/canada Flag-01.png"
-import USAFlag from "../../public/assets/USA Flag-01.png"
-import AustraliaFlag from "../../public/assets/Australia Flag-01.png"
-import UKFlag from "../../public/assets/UK Flag-01.png"
+import canadaFlag from "../../public/assets/canadaFlag.png"
+import USAFlag from "../../public/assets/usaFlag.png"
+import AustraliaFlag from "../../public/assets/australiaFlag.png"
+import UKFlag from "../../public/assets/ukFlag.png"
 
 const Nav = () => {
 
