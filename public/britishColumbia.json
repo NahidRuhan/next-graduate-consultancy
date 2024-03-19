@@ -1,0 +1,106 @@
+[
+  {
+      "name": "Capilano University",
+      "website": "www.capilanou.ca",
+      "application_fee": "$135 CAD",
+      "location": "North Vancouver",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/85yNrkv/Capilano-University-01.jpg"
+  },
+  {
+      "name": "Vancouver Island University",
+      "website": "www.viu.ca",
+      "application_fee": "$150 CAD",
+      "location": "Nanaimo",
+      "intake_months": "Jan/September",
+      "img": "https://i.ibb.co/4d4DCxM/Vancouver-Island-University-01.jpg"
+  },
+  {
+      "name": "Fraser International College",
+      "website": "www.fraseric.ca",
+      "application_fee": "WAIVED OFF",
+      "location": "Burnaby",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/vc8ys1L/Fraser-International-College-01.jpg"
+  },
+  {
+      "name": "Trinity Western University",
+      "website": "www.twu.ca",
+      "application_fee": "$150 CAD",
+      "location": "Langley",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/bb6kqb3/Trinity-Western-University-01.jpg"
+  },
+  {
+      "name": "Fairleigh Dickinson University",
+      "website": "www.fdu.edu/vancouver/",
+      "application_fee": "$100 CAD",
+      "location": "Vancouver",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/9qS7WTx/Fairleigh-Dickinson-University-01.jpg"
+  },
+  {
+      "name": "The University of British Columbia",
+      "website": "www.ubc.ca",
+      "application_fee": "$154 CAD",
+      "location": "Vancouver",
+      "intake_months": "Jan/May/August",
+      "img": "https://i.ibb.co/B6kmQV6/The-University-of-British-Columbia-01.jpg"
+  },
+  {
+      "name": "Thompson Rivers University",
+      "website": "www.tru.ca",
+      "application_fee": "$100 CAD",
+      "location": "Kelowna",
+      "intake_months": "Jan/May/August",
+      "img": "https://i.ibb.co/GTK6czT/Thompson-Rivers-University-01.jpg"
+  },
+  {
+      "name": "Simon Fraser University",
+      "website": "www.sfu.ca",
+      "application_fee": "$100 CAD",
+      "location": "Multiple Campuses",
+      "intake_months": "January/May/September",
+      "img": "https://i.ibb.co/WxYjnKc/Simon-Fraser-University-01.jpg"
+  },
+  {
+      "name": "University Canada West",
+      "website": "www.ucanwest.ca",
+      "application_fee": "WAIVED OFF",
+      "location": "Vancouver",
+      "intake_months": "January/May/September",
+      "img": "https://i.ibb.co/bP5qBm3/University-Canada-West-01.jpg"
+  },
+  {
+      "name": "Royal Roads University",
+      "website": "www.royalroads.ca",
+      "application_fee": "$125 CAD",
+      "location": "Victoria",
+      "intake_months": "January/May/September",
+      "img": "https://i.ibb.co/JmThLkZ/Royal-Roads-University-01.jpg"
+  },
+  {
+      "name": "Douglas College",
+      "website": "www.douglas.bc.ca",
+      "application_fee": "$100 CAD",
+      "location": "New Westminster",
+      "intake_months": "January/May/September",
+      "img": "https://i.ibb.co/8XzZPwZ/Douglas-College-01.jpg"
+  },
+  {
+      "name": "Columbia College",
+      "website": "www.columbiacollege.ca",
+      "application_fee": "$100 CAD",
+      "location": "Multiple Locations",
+      "intake_months": "January/May/September",
+      "img": "https://i.ibb.co/6DYxGng/Columbia-College-01.jpg"
+  },
+  {
+      "name": "North Island College",
+      "website": "www.nic.bc.ca",
+      "application_fee": "$100 CAD",
+      "location": "Multiple Locations",
+      "intake_months": "January/May/September",
+      "img": "https://i.ibb.co/zXs8SHS/North-Island-College-01.jpg"
+  }
+]

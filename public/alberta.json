@@ -1,0 +1,50 @@
+[
+    {
+        "name": "UNIVERSITY OF ALBERTA",
+        "website": "www.ualberta.ca",
+        "application_fee": "$125 CAD",
+        "location": "Edmonton",
+        "intake_months": "Jan/May/September",
+        "img": "https://i.ibb.co/smKsYh4/University-of-Alberta-01.jpg"
+    },
+    {
+        "name": "BOW VALLEY COLLEGE",
+        "website": "www.bowvalleycollege.ca",
+        "application_fee": "$140 CAD",
+        "location": "Calgary",
+        "intake_months": "Jan/May/September",
+        "img": "https://i.ibb.co/q52kskz/Bow-Valley-College-01.jpg"
+    },
+    {
+        "name": "UNIVERSITY OF LETHBRIDGE",
+        "website": "www.uleth.ca",
+        "application_fee": "$140 CAD",
+        "location": "Lethbridge & Calgary",
+        "intake_months": "Jan/May/September",
+        "img": "https://i.ibb.co/mNN2WTk/University-of-Lethbride-01.jpg"
+    },
+    {
+        "name": "LAKELAND COLLEGE",
+        "website": "www.lakelandcollege.ca",
+        "application_fee": "$90 CAD",
+        "location": "Lloydminster",
+        "intake_months": "Jan/May/September",
+        "img": "https://i.ibb.co/GnPKjqt/Lakeland-College-01.jpg"
+    },
+    {
+        "name": "UNIVERSITY OF CALGARY",
+        "website": "www.ucalgary.ca",
+        "application_fee": "$145 CAD",
+        "location": "Calgary",
+        "intake_months": "Jan/May/September",
+        "img": "https://i.ibb.co/q08y3zs/University-of-Calgory-01.jpg"
+    },
+    {
+        "name": "CONCORDIA UNIVERSITY OF EDMONTON",
+        "website": "www.concordia.ab.ca",
+        "application_fee": "$100 CAD",
+        "location": "Edmonton",
+        "intake_months": "Jan/May/September",
+        "img": "https://i.ibb.co/gJyrZpn/CONCORDIA-UNIVERSITY-OF-EDMONTON-01.jpg"
+    }
+]

@@ -1,0 +1,34 @@
+[
+  {
+      "name": "University of Saskatchewan",
+      "website": "www.usask.ca",
+      "application_fee": "$90 CAD",
+      "location": "Saskatoon",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/C7Wf4Cf/University-of-Saskatchewan-01.jpg"
+  },
+  {
+      "name": "University of Regina",
+      "website": "www.uregina.ca",
+      "application_fee": "$100 – $200 CAD",
+      "location": "Regina",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/NSsgY5F/University-of-Regina-01.jpg"
+  },
+  {
+      "name": "Luther College High School",
+      "website": "www.luthercollege.edu",
+      "application_fee": "$100 CAD",
+      "location": "Regina",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/jrCm7FY/Luther-College-High-School-01.jpg"
+  },
+  {
+      "name": "Saskatchewan Polytechnic",
+      "website": "www.saskpolytech.ca",
+      "application_fee": "$80 CAD",
+      "location": "Saskatoon",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/3fkYmBq/Saskatchewan-Polytechnic-01.jpg"
+  }
+]

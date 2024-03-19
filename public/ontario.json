@@ -1,0 +1,330 @@
+[
+    {
+      "name": "Seneca College",
+      "website": "www.senecacollege.ca",
+      "application_fee": "$90 CAD",
+      "location": "Newnham, Toronto",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/bmWFfVx/Seneca-College-01.jpg"
+    },
+    {
+      "name": "Humber College",
+      "website": "www.humber.ca",
+      "application_fee": "$75 CAD",
+      "location": "North Campus, Toronto",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/wKPPG0M/Humber-01.jpg"
+    },
+    {
+      "name": "Algoma University",
+      "website": "www.algomau.ca",
+      "application_fee": "$90 CAD",
+      "location": "Brampton",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/qsVkgRP/Algoma-01.jpg"
+    },
+    {
+      "name": "Canadore College",
+      "website": "www.canadorecollege.ca",
+      "application_fee": "$100 CAD",
+      "location": "North Bay",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/BZ3TvHr/Canadore-College-01.jpg"
+    },
+    {
+      "name": "Brock University",
+      "website": "www.brocku.ca",
+      "application_fee": "$130 CAD",
+      "location": "St. Catharine’s",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/SKGMM3Q/Brock-Uni-01.jpg"
+    },
+    {
+      "name": "Confederation College",
+      "website": "www.confederationcollege.ca",
+      "application_fee": "$95 CAD",
+      "location": "Thunderbay",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/x8nfv2Q/Confedaration-College-01.jpg"
+    },
+    {
+      "name": "Durham College",
+      "website": "www.durhamcollege.ca",
+      "application_fee": "$100 CAD",
+      "location": "Oshawa",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/GH9mPzy/Durham-01.jpg"
+    },
+    {
+      "name": "Fleming College",
+      "website": "www.flemingcollege.ca",
+      "application_fee": "$100 CAD",
+      "location": "Peterborough",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/LgBF868/Fleming-College-01.jpg"
+    },
+    {
+      "name": "Loyalist College",
+      "website": "www.loyalistcollege.com",
+      "application_fee": "$110 CAD",
+      "location": "Belleville",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/F3CVkjY/Loyalist-College-01.jpg"
+    },
+    {
+      "name": "Niagara College",
+      "website": "www.niagaracollege.ca",
+      "application_fee": "$100 CAD",
+      "location": "Niagara Falls",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/W2wFRT2/Niagara-01.jpg"
+    },
+    {
+      "name": "University of Guelph",
+      "website": "www.uoguelph.ca",
+      "application_fee": "$90 CAD",
+      "location": "East Guelph",
+      "intake_months": "September",
+      "img": "https://i.ibb.co/jGJtZVf/Guelph-01.jpg"
+    },
+    {
+      "name": "University of Windsor",
+      "website": "www.uwindsor.ca",
+      "application_fee": "$75 CAD",
+      "location": "Windsor",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/Cbtn3ZD/Windsor-01.jpg"
+    },
+    {
+      "name": "Centennial College",
+      "website": "www.centennialcollege.ca",
+      "application_fee": "$125 CAD",
+      "location": "Scarborough, Toronto",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/fH6RDRX/Centennial-College-01.jpg"
+    },
+    {
+      "name": "George Brown College",
+      "website": "www.georgebrown.ca",
+      "application_fee": "$110 CAD",
+      "location": "Downtown, Toronto",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/3T0B7kK/George-Brown-01.jpg"
+    },
+    {
+      "name": "Cambrian College",
+      "website": "www.cambriancollege.ca",
+      "application_fee": "$95 CAD",
+      "location": "Brampton (Hanson Campus)",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/PGd1f3y/Cambrian-College-01.jpg"
+    },
+   {
+    "name": "Sheridan College",
+    "website": "www.sheridancollege.ca",
+    "application_fee": "$100 CAD",
+    "location": "Brampton Toronto",
+    "intake_months": "Jan, May, September",
+    "img": "https://i.ibb.co/P6ctJf4/Sheridan-01.jpg"
+   },
+   {
+    "name": "St. Lawrence College",
+    "website": "www.stlawrencecollege.ca",
+    "application_fee": "$150 CAD",
+    "location": "Toronto (Alpha Campus)",
+    "intake_months": "Jan, May, September",
+    "img": "https://i.ibb.co/4JJ7MRR/Lawrence.jpg"
+   },
+   {
+    "name": "Algonquin College",
+    "website": "www.algonquincollege.com",
+    "application_fee": "$95 CAD",
+    "location": "Mississauga",
+    "intake_months": "Jan, May, September",
+    "img": "https://i.ibb.co/1TXq5kx/Algonquin-01.jpg"
+   },
+   {
+    "name": "Conestoga College",
+    "website": "www.conestogac.on.ca",
+    "application_fee": "$100 CAD",
+    "location": "Kitchener",
+    "intake_months": "Jan, May, September",
+    "img": "https://i.ibb.co/rbDgMtV/Conestoga-College-01.jpg"
+   },
+   {
+    "name": "Fanshawe College",
+    "website": "www.fanshawec.ca",
+    "application_fee": "$120 CAD",
+    "location": "London",
+    "intake_months": "Jan, May, September",
+    "img": "https://i.ibb.co/P4JDm6C/fanshawe-college-01.jpg"
+   },
+   {
+    "name": "Georgian College",
+    "website": "www.georgiancollege.ca",
+    "application_fee": "$100 CAD",
+    "location": "Barrie",
+    "intake_months": "Jan, May, September",
+    "img": "https://i.ibb.co/1sGMQ5p/Georgian.jpg"
+   },
+   {
+    "name": "Lakehead University",
+    "website": "www.lakeheadu.ca",
+    "application_fee": "UG: $135 CAD & G: $100 CAD",
+    "location": "Thunderbay",
+    "intake_months": "Jan, September",
+    "img": "https://i.ibb.co/jfTdNkm/Lakehead-01.jpg"
+   },
+    {
+      "name": "Wilfrid Laurier University",
+      "website": "www.wlu.ca",
+      "application_fee": "$264 CAD",
+      "location": "Waterloo",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/nBQ9js4/Laurier-01.jpg"
+    },
+    {
+      "name": "Trent University",
+      "website": "www.trentu.ca",
+      "application_fee": "UG: $90CAD & G: $100 CAD",
+      "location": "Peterborough",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/qFNnQPp/Trent-University-01-01.jpg"
+    },
+    {
+      "name": "Carleton University",
+      "website": "www.carleton.ca",
+      "application_fee": "$166 CAD",
+      "location": "Ottawa",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/L1Y5yys/Carleton-01.jpg"
+    },
+    {
+      "name": "McMaster University",
+      "website": "www.mcmaster.ca",
+      "application_fee": "$110-150 CAD",
+      "location": "Hamilton",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/ySN8wxz/Mc-Master-01.jpg"
+    },
+    {
+      "name": "Ontario Tech University",
+      "website": "www.ontariotechu.ca",
+      "application_fee": "$120 CAD",
+      "location": "Oshawa",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/LdDRMkW/Ontario-University-01-01.jpg"
+    },
+    {
+      "name": "Ryerson University",
+      "website": "www.ryerson.ca",
+      "application_fee": "$150 CAD",
+      "location": "Toronto",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/59D7g67/Ryerson-University-01.jpg"
+    },
+    {
+      "name": "Lakehead University",
+      "website": "www.lakeheadu.ca",
+      "application_fee": "$135 CAD $100 CAD",
+      "location": "Thunderbay",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/jfTdNkm/Lakehead-01.jpg"
+    },
+    {
+      "name": "Wilfrid Laurier University",
+      "website": "www.wlu.ca",
+      "application_fee": "$264 CAD",
+      "location": "Waterloo, Milton & Branford",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/HqCmbkG/Laurier-01.jpg"
+    },
+    {
+      "name": "Tamwood International College",
+      "website": "www.tamwood.com",
+      "application_fee": "$200 CAD",
+      "location": "Multiple locations",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/yypdszB/Tamwood-01.jpg"
+    },
+    {
+      "name": "Toronto Metropolitan University",
+      "website": "www.torontometropolitan.ca",
+      "application_fee": "$110 CAD",
+      "location": "Toronto",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/Z8Mvj4V/Tronto-Metropaliton-University-01.jpg"
+    },
+    {
+      "name": "University of Toronto",
+      "website": "www.utoronto.ca",
+      "application_fee": "$180 CAD",
+      "location": "Toronto",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/F5tVPFK/Tronto-University-01.jpg"
+    },
+    {
+      "name": "Western University",
+      "website": "www.uwo.ca",
+      "application_fee": "$150 CAD",
+      "location": "London",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/qNb0Lwm/Western-University-01.jpg"
+    },
+    {
+      "name": "York University",
+      "website": "www.yorku.ca",
+      "application_fee": "$130 CAD",
+      "location": "Toronto",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/4pSVYkW/York-01.jpg"
+    },
+    {
+      "name": "Yorkville University",
+      "website": "www.yorkvilleu.ca",
+      "application_fee": "$175 CAD",
+      "location": "Fredericton",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/6vtdWDZ/yorkville-01.jpg"
+    },
+    {
+      "name": "OCAD University",
+      "website": "www.ocadu.ca",
+      "application_fee": "$110 CAD",
+      "location": "Toronto",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/G0pKb7v/OCAD-University-01.jpg"
+    },
+    {
+      "name": "Queen's University",
+      "website": "www.queensu.ca",
+      "application_fee": "$150 CAD",
+      "location": "Kingston",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/Km86KZL/Queens-University-01.jpg"
+    },
+    {
+      "name": "University of Ottawa",
+      "website": "www.uottawa.ca",
+      "application_fee": "$120 CAD",
+      "location": "Ottawa",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/rMNtY6r/Ottwa-University-01.jpg"
+    },
+    {
+      "name": "University of Waterloo",
+      "website": "uwaterloo.ca",
+      "application_fee": "$125 CAD",
+      "location": "Waterloo",
+      "intake_months": "Jan, September",
+      "img": "https://i.ibb.co/CPy3PLb/Waterloo-university-01.jpg"
+    },
+    {
+      "name": "Lambton College",
+      "website": "www.lambtoncollege.ca",
+      "application_fee": "$150 CAD",
+      "location": "Sarnia",
+      "intake_months": "Jan, May, September",
+      "img": "https://i.ibb.co/LzpHKF5/Lambton-College.webp"
+    }
+  ]

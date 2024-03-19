@@ -1,0 +1,50 @@
+[
+  {
+      "name": "Dalhousie University",
+      "website": "www.dal.ca",
+      "application_fee": "$115 CAD",
+      "location": "Halifax",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/353fYMt/DALHOUSIE-UNIVERSITY-01.jpg"
+  },
+  {
+      "name": "Acadia University",
+      "website": "www.acadiau.ca",
+      "application_fee": "$40 CAD",
+      "location": "Wolfville",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/XFGVLGk/Acadia-University-01.jpg"
+  },
+  {
+      "name": "University of King’s College",
+      "website": "www.ukings.ca",
+      "application_fee": "$75 CAD",
+      "location": "Halifax",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/6bz34r2/University-of-King-s-College-01.jpg"
+  },
+  {
+      "name": "Cape Breton University",
+      "website": "www.cbu.ca",
+      "application_fee": "$100 CAD",
+      "location": "Sydney",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/60M7vs2/Cape-Breton-University-01.jpg"
+  },
+  {
+      "name": "St. Francis Xavier University",
+      "website": "www.stfx.ca",
+      "application_fee": "$100 CAD",
+      "location": "Antigonish",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/BTPQS5V/St-Francis-Xavier-University-01.jpg"
+  },
+  {
+      "name": "Saint Mary’s University",
+      "website": "www.smu.ca",
+      "application_fee": "$110 CAD",
+      "location": "Halifax",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/z80Gqph/Saint-Mary-s-University-01.jpg"
+  }
+]

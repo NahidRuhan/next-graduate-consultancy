@@ -1,0 +1,35 @@
+[
+    {
+      "name": "McGill University",
+      "application_fee": "$129 – $132 CAD",
+      "location": "Sherbrooke, Montreal",
+      "intake_months": "Jan/May/September",
+      "website": "www.mcgill.ca",
+      "img": "https://i.ibb.co/zhDXjxr/Mc-Gill-01.jpg"
+    },
+    {
+      "name": "Universite de Montreal",
+      "application_fee": "$21 – $77 CAD",
+      "location": "Montreal",
+      "intake_months": "Jan/May/September",
+      "website": "www.umontreal.ca",
+      "img": "https://i.ibb.co/VDt56Pq/Universite-de-Montreal-01.jpg"
+    },
+    {
+      "name": "Universite de Quebec",
+      "application_fee": "$144 CAD",
+      "location": "Montreal",
+      "intake_months": "Jan/May/September",
+      "website": "www.reseau.uquebec.ca/fr",
+      "img": "https://i.ibb.co/T8BFvFN/universite-du-quebec-01.jpg"
+    },
+    {
+      "name": "Bishop's University",
+      "application_fee": "$65 CAD",
+      "location": "Montreal",
+      "intake_months": "Jan/May/September",
+      "website": "www.ubishops.ca",
+      "img": "https://i.ibb.co/DQnwJPd/Bishop-s-University-01.jpg"
+    }
+  ]
+  

@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Memorial University of Newfoundland",
+      "website": "www.mun.ca",
+      "application_fee": "$120 CAD",
+      "location": "St. John's",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/02hLwJd/MEMORIAL-UNIVERSITY-OF-NEWFOUNDLAND-01.jpg"
+    },
+    {
+      "name": "College of North Atlantic",
+      "website": "www.cna.nl.ca",
+      "application_fee": "$100 CAD",
+      "location": "Brook",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/cFBzvZW/COLLEGE-OF-NORTH-ATLANTIC-01.jpg"
+    }
+  ]
+  

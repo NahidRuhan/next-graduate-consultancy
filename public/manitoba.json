@@ -1,0 +1,50 @@
+[
+  {
+      "name": "University of Manitoba",
+      "website": "www.umanitoba.ca",
+      "application_fee": "$120 CAD",
+      "location": "Fort Garry, Bannatyne",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/qFQJJLF/University-Of-Manitoba-01.jpg"
+  },
+  {
+      "name": "Brandon University",
+      "website": "www.brandonu.ca",
+      "application_fee": "$140 CAD",
+      "location": "Brandon",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/6t7sjS6/Brandon-University-01.jpg"
+  },
+  {
+    "name": "University College of the North",
+    "website": "www.ucn.ca",
+    "application_fee": "$158 CAD",
+    "location": "Northern Manitoba",
+    "intake_months": "Jan/May/September",
+    "img": "https://i.ibb.co/YbtGj23/University-College-of-the-North-01.jpg"
+},
+{
+    "name": "The University of Winnipeg",
+    "website": "www.uwinnipeg.ca",
+    "application_fee": "$120 CAD",
+    "location": "Winnipeg",
+    "intake_months": "Jan/May/September",
+    "img": "https://i.ibb.co/JdNvLyf/The-University-of-Winnipeg-01.jpg"
+},
+{
+    "name": "Booth University College",
+    "website": "www.boothuc.ca",
+    "application_fee": "$150 CAD",
+    "location": "Winnipeg",
+    "intake_months": "Jan/May/September",
+    "img": "https://i.ibb.co/wW2jC88/Booth-University-Colleg-01.jpg"
+},
+{
+    "name": "Providence University College",
+    "website": "www.prov.ca",
+    "application_fee": "$150 CAD",
+    "location": "Otterburne",
+    "intake_months": "Jan/May/September",
+    "img": "https://i.ibb.co/YXTXXpQ/Providence-University-College-01.jpg"
+}
+]

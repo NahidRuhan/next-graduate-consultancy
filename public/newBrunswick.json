@@ -1,0 +1,35 @@
+[
+    {
+      "name": "University of New Brunswick (UNB)",
+      "website": "https://www.unb.ca/",
+      "application_fee": "$125 CAD",
+      "location": "Fredericton and Saint John",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/8j3THr5/University-of-New-Brunswick-01.jpg"
+    },
+    {
+      "name": "Mount Allison University",
+      "website": "https://www.mta.ca/",
+      "application_fee": "$100 CAD",
+      "location": "Sackville",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/2qHW9cg/Mount-Allison-University-01.jpg"
+    },
+    {
+      "name": "St. Thomas University",
+      "website": "https://www.stu.ca/",
+      "application_fee": "$100 CAD",
+      "location": "Fredericton",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/Mf2fWL1/St-Thomas-University-01.jpg"
+    },
+    {
+      "name": "New Brunswick Community College (NBCC)",
+      "website": "https://nbcc.ca/",
+      "application_fee": "$100 CAD",
+      "location": "Multiple locations",
+      "intake_months": "Jan/May/September",
+      "img": "https://i.ibb.co/kXJR5WS/New-Brunswick-Community-College-01.jpg"
+    }
+  ]
+  
