@@ -14,15 +14,21 @@ const Nav = () => {
 
      const router = useRouter();
 
-  const [isNavDrawerOpen, setIsNavDrawerOpen] = useState(false);
-
-  const closeDropdown = () => {
-    setIsDropdownOpen(false);
-  };
-
-  const toggleNavDrawer = () => {
-    setIsNavDrawerOpen(!isNavDrawerOpen);
-  };
+     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+     const [isNavDrawerOpen, setIsNavDrawerOpen] = useState(false);
+   
+     const toggleDropdown = () => {
+       setIsDropdownOpen(!isDropdownOpen);
+     };
+   
+     const closeDropdown = () => {
+       setIsDropdownOpen(false);
+     };
+   
+     const toggleNavDrawer = () => {
+       setIsNavDrawerOpen(!isNavDrawerOpen);
+     };
+   
 
   return (
     <>
@@ -179,18 +185,18 @@ const Nav = () => {
                 className="dropdown-content z-[1] menu ml-1 shadow bg-base-100 w-52"
               >
                 <li  onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/study-abroad/canada"><span className="w-5"><Image src={canadaFlag}></Image></span> <span>Canada</span></Link>
+                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/study-abroad/canada"><span className="w-5"><Image src={canadaFlag}alt="logo"></Image></span> <span>Canada</span></Link>
                 </li>
                 <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/study-abroad/usa" ><span className="w-5"><Image src={USAFlag}></Image></span> <span>USA</span></Link>
+                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/study-abroad/usa" ><span className="w-5"><Image src={USAFlag} alt="logo"></Image></span> <span>USA</span></Link>
                  
                 </li>
                 <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/study-abroad/uk"><span className="w-5"><Image src={UKFlag}></Image></span> <span>UK</span></Link>
+                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/study-abroad/uk"><span className="w-5"><Image src={UKFlag} alt="logo"></Image></span> <span>UK</span></Link>
                   
                 </li>
                 <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/study-abroad/australia"><span className="w-5"><Image src={AustraliaFlag}></Image></span> <span>Australia</span></Link>
+                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/study-abroad/australia"><span className="w-5"><Image src={AustraliaFlag} alt="logo"></Image></span> <span>Australia</span></Link>
                 </li>
               </ul>
             </div>
