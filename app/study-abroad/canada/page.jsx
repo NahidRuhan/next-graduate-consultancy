@@ -12,6 +12,7 @@ import { BsBank } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
 import Image from 'next/image';
 import Link from 'next/link';
+import { FaAngleRight } from 'react-icons/fa6';
 
 
 

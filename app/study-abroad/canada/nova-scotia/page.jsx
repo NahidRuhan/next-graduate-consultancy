@@ -5,6 +5,7 @@ import banner from "@/public/assets/study-abroad/canada//nova scotia/banner.jpg"
 import Image from 'next/image';
 import UniCard from '@/components/shared/UniCard';
 import Link from 'next/link';
+import { FaAngleRight } from 'react-icons/fa6';
 
 const NovaScotia = async () => {
     const file = await fs.readFile(process.cwd() + '/public/novaScotia.json', 'utf8');

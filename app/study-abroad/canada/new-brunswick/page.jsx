@@ -3,6 +3,7 @@ import newbrun from "@/public/assets/study-abroad/canada/new brunswick/1.jpeg"
 import banner from "@/public/assets/study-abroad/canada//new brunswick/banner.jpg"
 import Image from 'next/image';
 import UniCard from '@/components/shared/UniCard';
+import { FaAngleRight } from 'react-icons/fa6';
 
 const NovaScotia = async () => {
 

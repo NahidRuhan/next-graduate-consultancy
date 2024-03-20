@@ -11,6 +11,7 @@ import usa4 from "@/public/assets/study-abroad/usa/4.jpg"
 import usa5 from "@/public/assets/study-abroad/usa/5.jpg"
 import banner from "@/public/assets/study-abroad/usa/banner.jpg"
 import Image from "next/image";
+import { FaCheck } from "react-icons/fa6";
 
 
 const Usa = () => {

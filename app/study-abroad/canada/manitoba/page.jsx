@@ -5,6 +5,7 @@ import manitoba2  from "@/public/assets/study-abroad/canada/manitoba/2.jpg"
 import Image from 'next/image';
 import UniCard from '@/components/shared/UniCard';
 import Link from 'next/link';
+import { FaAngleRight } from 'react-icons/fa6';
 
 const Manitoba = async () => {
 

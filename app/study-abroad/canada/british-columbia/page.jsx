@@ -6,6 +6,7 @@ import banner from "@/public/assets/study-abroad/canada/columbia/banner.jpg"
 import Image from "next/image";
 import Link from "next/link";
 import UniCard from '@/components/shared/UniCard';
+import { FaAngleRight } from 'react-icons/fa6';
 
 const BritishColumbia = async () => {
 

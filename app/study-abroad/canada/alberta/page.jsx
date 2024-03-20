@@ -5,6 +5,7 @@ import alberta2 from "@/public/assets/study-abroad/canada/alberta/2.jpg"
 import Link from 'next/link';
 import Image from 'next/image';
 import UniCard from '@/components/shared/UniCard';
+import { FaAngleRight } from 'react-icons/fa6';
 
 const Alberta = async () => {
 

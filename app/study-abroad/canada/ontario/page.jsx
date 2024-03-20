@@ -5,6 +5,7 @@ import ontario2 from "@/public/assets/study-abroad/canada/ontario/2.jpg"
 import Image from 'next/image';
 import Link from 'next/link';
 import UniCard from '@/components/shared/UniCard';
+import { FaAngleRight } from 'react-icons/fa6';
 
 const Ontario = async () => {
     const file = await fs.readFile(process.cwd() + '/public/ontario.json', 'utf8');

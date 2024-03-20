@@ -3,6 +3,7 @@ import banner from "@/public/assets/study-abroad/canada//quebec/banner.jpg"
 import quebec from "@/public/assets/study-abroad/canada/quebec/1.jpg"
 import Image from 'next/image';
 import UniCard from '@/components/shared/UniCard';
+import { FaAngleRight } from 'react-icons/fa6';
 
 const Quebec =async() => {
     const file = await fs.readFile(process.cwd() + '/public/quebec.json', 'utf8');
