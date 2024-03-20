@@ -25,15 +25,15 @@ const Alberta = async () => {
                 <Image src={alberta} alt="" />
                 <div className="flex flex-col gap-2">
                     <p> Apart from these green signals, Alberta is also considered to be the most affordable and reasonable place to live in for students as well as  residents. Alberta has the fastest growing demand for medical professionals.</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> University of Alberta</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> University of Calgary </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Macewan University</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Athabasca University </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> University of Lethbridge</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Southern Alberta Institute of Technology</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Bow Valley College</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Norquest College</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Olds College</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> University of Alberta</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> University of Calgary </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Macewan University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Athabasca University </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> University of Lethbridge</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Southern Alberta Institute of Technology</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Bow Valley College</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Norquest College</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Olds College</p>
 
                 </div>
             </div>

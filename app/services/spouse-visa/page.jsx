@@ -2,6 +2,8 @@ import banner from "@/public/assets/service/Spouse Visa/banner.jpg";
 import spouse1 from "@/public/assets/service/Spouse Visa/1.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import { FaAngleRight } from "react-icons/fa6";
+
 
 const SpouseVisa = () => {
   return (
@@ -64,16 +66,16 @@ const SpouseVisa = () => {
             You may apply for a Spouse Visa (Open Work Permit) if your partner
             a:
           </h1>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> is a
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> is a
             full-time student
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> has a
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> has a
             valid study permit
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> has a
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> has a
             valid work visa
           </p>
         </div>
@@ -82,26 +84,26 @@ const SpouseVisa = () => {
           <h1 className="font-bold text-xl lg:text-3xl pb-5">
             Mandatory Documents
           </h1>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Copy of
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Copy of
             your partners study or work permit{" "}
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Marriage
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Marriage
             Certificate
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Proof of
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Proof of
             financial stability
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Medical
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Medical
             Examination
           </p>
           <Link href='/services/sop-resume-prep'><p
-            className="hover:cursor-pointer text-red-500"
+            className="hover:cursor-pointer text-red-500 flex items-center gap-2"
           >
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Statement
+            <span className="text-red-500"><FaAngleRight /></span> Statement
             of Purpose
           </p></Link>
         </div>

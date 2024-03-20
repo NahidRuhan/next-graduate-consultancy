@@ -12,6 +12,7 @@ import aus5 from "@/public/assets/study-abroad/australia/5.jpg"
 import aus6 from "@/public/assets/study-abroad/australia/6.jpg"
 import banner from "@/public/assets/study-abroad/australia/banner.jpg"
 import Image from "next/image";
+import { TiTick } from "react-icons/ti";
 
 const Australia = () => {
 
@@ -188,16 +189,16 @@ const accordionContent = [
                     <Image src={aus1} alt="" />
                     <div className="flex flex-col gap-3">
 
-                        <p><i className="fa-solid fa-check text-red-500"></i> Australia ranks third in overseas education.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> To study in Australia, you must choose a world-class education policy.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Cultural diversity, immigration-friendly rules and the opportunity to gain experience.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Australia is the fourth happiest and twelfth largest economy in the world.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> It has consistently maintained its educational standards.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> For international students, a CRICOS Registered Institute guarantees</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> The institute and curriculum meet the highest standards.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Australian universities are globally recognized.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> 7 of the world’s top 100 universities in Australia.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Right-to-work student visa.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Australia ranks third in overseas education.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> To study in Australia, you must choose a world-class education policy.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Cultural diversity, immigration-friendly rules and the opportunity to gain experience.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Australia is the fourth happiest and twelfth largest economy in the world.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> It has consistently maintained its educational standards.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> For international students, a CRICOS Registered Institute guarantees</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> The institute and curriculum meet the highest standards.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Australian universities are globally recognized.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> 7 of the world’s top 100 universities in Australia.</p>
+                        <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Right-to-work student visa.</p>
 
                     </div>
                 </div>
@@ -209,12 +210,12 @@ const accordionContent = [
 
                     <div className="flex flex-col gap-3">
 
-                    <p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Most Livable Cities:</span> Australia has 7 of the 75 best student cities in the world. (According to QS Best Student Cities)</p>
-<p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Top Universities:</span> The quality of education is high with over 40 accredited universities in Australia.</p>
-<p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Eligibility:</span> International employers are increasingly seeking graduates from Australian universities.</p>
-<p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Work Opportunities:</span> International students who want to earn money for living expenses while working can work 40 hours a week in Australia.</p>
-<p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Scholarship:</span> The Australian Government invests generously in international education.</p>
-<p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Multicultural Society:</span> Australians value cultural diversity and social sophistication by integrating international students into campuses and communities.</p>
+                    <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Most Livable Cities: Australia has 7 of the 75 best student cities in the world. (According to QS Best Student Cities)</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Top Universities: The quality of education is high with over 40 accredited universities in Australia.</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Eligibility: International employers are increasingly seeking graduates from Australian universities.</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Work Opportunities: International students who want to earn money for living expenses while working can work 40 hours a week in Australia.</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Scholarship: The Australian Government invests generously in international education.</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Multicultural Society: Australians value cultural diversity and social sophistication by integrating international students into campuses and communities.</p>
 
                     </div>
                     <Image src={aus2} alt="" />
@@ -232,15 +233,15 @@ const accordionContent = [
 
                     <div className="flex flex-col gap-3">
 
-                    <p><i className="fa-solid fa-check text-red-500"></i> Register with DEC and talk with an Education Counsellor</p>
-<p><i className="fa-solid fa-check text-red-500"></i> Choose a course according to your areas of interest</p>
-<p><i className="fa-solid fa-check text-red-500"></i> Shortlist a university that suits your preferences, entry requirements and budget</p>
-<p><i className="fa-solid fa-check text-red-500"></i> Apply for the Australian university with our assistance</p>
-<p><i className="fa-solid fa-check text-red-500"></i> Get counselling on visa from our experts</p>
-<p><i className="fa-solid fa-check text-red-500"></i> Pay financial deposits</p>
-<p><i className="fa-solid fa-check text-red-500"></i> Receive COE (Confirmation of Enrolment) from the university</p>
-<p><i className="fa-solid fa-check text-red-500"></i> Apply for your visa with our help</p>
-<p><i className="fa-solid fa-check text-red-500"></i> Attend our pre-departure session and get ready to depart for Australia</p>
+                    <p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Register with DEC and talk with an Education Counsellor</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Choose a course according to your areas of interest</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Shortlist a university that suits your preferences, entry requirements and budget</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Apply for the Australian university with our assistance</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Get counselling on visa from our experts</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Pay financial deposits</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Receive COE (Confirmation of Enrolment) from the university</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Apply for your visa with our help</p>
+<p className="flex items-center gap-2"><span className="text-red-500"><TiTick /></span> Attend our pre-departure session and get ready to depart for Australia</p>
 
 
                     </div>

@@ -19,13 +19,13 @@ const Quebec =async() => {
             <div className="flex items-center gap-10 flex-col-reverse lg:flex-row">
                 <Image className="lg:w-1/2" src={quebec} alt="" />
                 <div className="flex flex-col gap-3">
-                    <p><i className="fa-solid fa-angles-right text-black"></i> It is the only province where French is as common as English, also you can witness an essence of European cuisine in restaurants. Some top cities of the province are Montréal, Québec, Sherbrooke, Trois-Rivières etc.</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Concordia University</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> McGill University  </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Universite De Montreal</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Universite Laval </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Universite De Quebec</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> All around, Quebec is a province with diversified culture and plush natural resources.</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> It is the only province where French is as common as English, also you can witness an essence of European cuisine in restaurants. Some top cities of the province are Montréal, Québec, Sherbrooke, Trois-Rivières etc.</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Concordia University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> McGill University  </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Universite De Montreal</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Universite Laval </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Universite De Quebec</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> All around, Quebec is a province with diversified culture and plush natural resources.</p>
                 </div>
             </div>
         </div>

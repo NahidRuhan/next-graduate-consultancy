@@ -287,11 +287,11 @@ const Canada = () => {
                 <p>Student direct stream commonly known as SDS is considered the faster student study permit processing program. IRCC generally process SDS students visa file in 20 calendar days is the student fulfil all the pre requisite. Students who are unable to fill any of these requirements are not eligible for SDS and need to submit their application is non-SDS.</p>
                 <h2 className='font-bold py-5'>Pre requisite for SDS</h2>
                 <div className='flex flex-col gap-4'>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Student must have valid test result of IELTS with score of 6 or higher in each module: listening, reading, writing & speaking, completed within 2 years of the date of SDS application.</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Student need to submit a proof of guaranteed investment certificate (GIC) of 10,000 CAD in a bank insured by Canadian Deposit Insurance Corporation (CDIC).</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Full one year tuition fee should be paid to the university or college.</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Student should submit most recent and post-secondary transcripts.</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Student need to submit the proof of Upfront medical examination. </p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Student must have valid test result of IELTS with score of 6 or higher in each module: listening, reading, writing & speaking, completed within 2 years of the date of SDS application.</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Student need to submit a proof of guaranteed investment certificate (GIC) of 10,000 CAD in a bank insured by Canadian Deposit Insurance Corporation (CDIC).</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Full one year tuition fee should be paid to the university or college.</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Student should submit most recent and post-secondary transcripts.</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Student need to submit the proof of Upfront medical examination. </p>
                 </div>
 
 
@@ -339,19 +339,19 @@ const Canada = () => {
   </Typography>
   <ul>
     <li>
-      <i className="fa-solid fa-chevron-right text-red-500"></i>
+    <span className="text-red-500"><FaAngleRight /></span>
       <Typography variant="body2">All the recent academic transcript</Typography>
     </li>
     <li>
-      <i className="fa-solid fa-chevron-right text-red-500"></i>
+    <span className="text-red-500"><FaAngleRight /></span>
       <Typography variant="body2">3 Letter of recommendation from faculties (2 Teachers, 1 Head of department)</Typography>
     </li>
     <li>
-      <i className="fa-solid fa-chevron-right text-red-500"></i>
+    <span className="text-red-500"><FaAngleRight /></span>
       <Typography variant="body2">Proof of English proficiency test</Typography>
     </li>
     <li>
-      <i className="fa-solid fa-chevron-right text-red-500"></i>
+    <span className="text-red-500"><FaAngleRight /></span>
       <Typography variant="body2">Statement of purpose</Typography>
     </li>
   </ul>
@@ -398,14 +398,14 @@ const Canada = () => {
             <div>
                 <h1 className='text-3xl font-bold py-10 text-center lg:text-left'>Why Graduate Consultancy?</h1>
                 <div className='flex flex-col gap-5'>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Register with Graduate Consultancy and talk with an experienced Education Counsellor.</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Choose a course according to your areas of interest</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Apply for the Canadian university with our assistance</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Get counselling on visa from our experts</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Pay financial deposits</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Receive LOA (Letter of Acceptance) from the university</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Apply for your visa with our help</p>
-                    <p><i className="fa-solid fa-chevron-right text-red-500"></i> Attend our pre-departure session and get ready to depart for Canada</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Register with Graduate Consultancy and talk with an experienced Education Counsellor.</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Choose a course according to your areas of interest</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Apply for the Canadian university with our assistance</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Get counselling on visa from our experts</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Pay financial deposits</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Receive LOA (Letter of Acceptance) from the university</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Apply for your visa with our help</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaAngleRight /></span> Attend our pre-departure session and get ready to depart for Canada</p>
                 </div>
             </div>
 

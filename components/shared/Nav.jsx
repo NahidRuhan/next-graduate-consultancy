@@ -109,7 +109,7 @@ const Nav = () => {
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
                 <Link className="hover:border-b-4 hover:border-white" href="/services">
-                  Services <i className="fa-solid fa-sort-down"></i>
+                  Services 
                 </Link>
               </label>
               
@@ -178,7 +178,7 @@ const Nav = () => {
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
                 <Link className="hover:border-b-4 hover:border-white" href="/study-abroad">
-                  Study Abroad <i className="fa-solid fa-sort-down"></i>
+                  Study Abroad 
                 </Link>
               </label>
               <ul
@@ -215,7 +215,7 @@ const Nav = () => {
             <div className="dropdown dropdown-hover">
               <label tabIndex={0} className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg">
                 <Link className="hover:border-b-4 hover:border-white" href="/about-us">
-                  About Us <i className="fa-solid fa-sort-down"></i>
+                  About Us 
                 </Link>
               </label>
               <ul

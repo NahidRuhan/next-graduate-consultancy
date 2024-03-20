@@ -2,6 +2,7 @@ import pic1 from "@/public/assets/service/Visitor Visa/banner.jpg";
 import pic2 from "@/public/assets/service/Visitor Visa/1.jpg";
 import pic3 from "@/public/assets/service/Visitor Visa/2.jpg";
 import Image from "next/image";
+import { TiTick } from "react-icons/ti";
 
 
 const VisitorVisa = () => {
@@ -55,36 +56,36 @@ const VisitorVisa = () => {
           </h1>
           <div className="flex items-center gap-5 flex-col lg:flex-row">
             <div className="flex flex-col gap-10">
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Legitimate
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Legitimate
                 purpose of visit
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Valid travel
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Valid travel
                 documents, including passport
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Letter of
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Letter of
                 invitation (if applicable)
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Proof of
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Proof of
                 financial stability
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Intentions to
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Intentions to
                 return to your home country
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Proof of
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Proof of
                 clean background and a complete lack of criminal record
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Must provide
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Must provide
                 a medical certificate declaring good health
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Proof of not
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Proof of not
                 intending to study or work in the foreign country
               </p>
             </div>

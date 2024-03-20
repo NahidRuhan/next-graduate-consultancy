@@ -28,11 +28,11 @@ const BritishColumbia = async () => {
                     <p>provide a wide range of employment and immigration options for students. With nearly 100,000 international students, British Columbia has proven to have multicultural acceptance.</p>
                     <h2 className="font-bold">Major sectors of British Columbia are Manufacturing, IT and Services.
 </h2>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> University of British Columbia</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> University of Victoria </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Douglas College Simon Fraser University</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Langara College </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> University Canada West</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> University of British Columbia</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> University of Victoria </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Douglas College Simon Fraser University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Langara College </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> University Canada West</p>
 
                 </div>
             </div>

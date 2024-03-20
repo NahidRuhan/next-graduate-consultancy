@@ -2,6 +2,7 @@ import banner from "@/public/assets/service/Visa Document/banner.jpg";
 import visa1 from  "@/public/assets/service/Visa Document/1.jpg";
 import visa2 from  "@/public/assets/service/Visa Document/2.jpg";
 import Image from "next/image";
+import { TiTick } from "react-icons/ti";
 const VisaDocument = () => {
   return (
     <div>
@@ -58,75 +59,75 @@ const VisaDocument = () => {
                 VISA Document List
               </h1>
 
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Passport
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Passport
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Matriculation
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Matriculation
                 mark sheet
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> 12th mark
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> 12th mark
                 sheet
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Birth
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Birth
                 certificate (if under 18; must be in English)
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Diploma /
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Diploma /
                 Bachelors / Masters— all semesters’ mark sheets
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Diploma /
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Diploma /
                 Bachelors / Masters— all semesters transcripts
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Diploma /
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Diploma /
                 Bachelors / Masters— mark sheets for all backlogs (if
                 applicable)
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Internship
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Internship
                 letter
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Three letters
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Three letters
                 of recommendations (2 from professors & 1 from Dean or HOD)
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> MOI— Medium
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> MOI— Medium
                 of Instruction (from English)
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Curriculum
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Curriculum
                 Vitae/Resume
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Digitalized
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Digitalized
                 photo (35mm x 45 mm) [80% face; white background]
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Joining
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Joining
                 letter
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Work
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Work
                 experience letter
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Resignation
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Resignation
                 letter
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Salary slip
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Salary slip
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Statement of
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Statement of
                 Purpose [for university]
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Marriage
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Marriage
                 certificate
               </p>
             </div>

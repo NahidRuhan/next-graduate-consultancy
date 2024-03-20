@@ -4,6 +4,7 @@ import pic2 from "@/public/assets/service/Student Visa/2.jpg";
 import student3 from "@/public/assets/service/Student Visa/3.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import { TiTick } from "react-icons/ti";
 
 const StudentVisa = () => {
   return (
@@ -69,28 +70,28 @@ const StudentVisa = () => {
           <div className="flex items-center gap-10 flex-col-reverse lg:flex-row">
             <Image className="lg:w-1/2" src={student3} alt="" />
             <div className="flex flex-col gap-5">
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Letter of
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Letter of
                 Acceptance from the destination countrys university or college
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Statement of
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Statement of
                 purpose
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Proof of
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Proof of
                 proficiency in the English language (Scorecard must be provided)
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Proof of
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Proof of
                 adequate funds to finance tuition fees and living expenses.
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Proof of a
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Proof of a
                 clean background and a complete lack of a criminal record.
               </p>
-              <p>
-                <i className="fa-solid fa-check text-red-500"></i> Must provide
+              <p className="flex items-center gap-2">
+                <span className="text-red-500"><TiTick /></span> Must provide
                 a medical certificate declaring good health
               </p>
             </div>

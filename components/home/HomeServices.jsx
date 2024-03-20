@@ -1,6 +1,7 @@
 "use client"
 
 import { useRouter } from "next/navigation";
+import { FaBuildingColumns, FaCcVisa, FaCreditCard, FaFile, FaGraduationCap, FaPlane, FaRing, FaUserGroup } from "react-icons/fa6";
 
 const HomeServices = () => {
   const router = useRouter();
@@ -34,9 +35,7 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                <i className="fa-solid fa-road rotate-sideways"></i> {/* Apply the rotate-360 class here */}
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaGraduationCap /></h2>
                 <p className="font-bold text-blue-950">Career Counseling</p>
                 <p className="font-small font-light">
                   Developing a long lasting relationship and identifying the
@@ -61,9 +60,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-solid fa-building-columns rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaBuildingColumns /></h2>
+
                 <p className="font-bold text-blue-950">University Selection</p>
                 <p className="font-small font-light">
                   Selecting the right University is a daunting task given the
@@ -87,9 +85,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-solid fa-file rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaFile /></h2>
+
                 <p className="font-bold text-blue-950">Visa Document</p>
                 <p className="font-small font-light">
                   Visa documentation, the most tedious and demanding aspect of
@@ -113,9 +110,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-solid fa-graduation-cap rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaCcVisa /></h2>
+
                 <p className="font-bold text-blue-950">Student Visa</p>
                 <p className="font-small font-light">
                   Student visa, as the name suggests are visas issued to
@@ -139,9 +135,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-regular fa-file rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaFile /></h2>
+
                 <p className="font-bold text-blue-950">
                   SOP|Resume Preparation
                 </p>
@@ -167,9 +162,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-solid fa-ring rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaRing /></h2>
+
                 <p className="font-bold text-blue-950">Spouse Visa</p>
                 <p className="font-small font-light">
                   If you are a US citizen you have 2 ways to bring your foreign
@@ -193,9 +187,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-solid fa-plane rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaUserGroup /></h2>
+
                 <p className="font-bold text-blue-950">Visitor visa</p>
                 <p className="font-small font-light">
                   Visitors visa are non immigrant visas for person who want to
@@ -219,9 +212,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-solid fa-people-group rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaUserGroup /></h2>
+
                 <p className="font-bold text-blue-950">PR</p>
                 <p className="font-small font-light">
                   Permanent resident (PR) is the set of techniques and
@@ -245,9 +237,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-solid fa-building rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaCreditCard /></h2>
+
                 <p className="font-bold text-blue-950">Accommodation</p>
                 <p className="font-small font-light">
                   Homely PG and Hostel around campus with monthly food. Stay
@@ -271,9 +262,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                <i className="fa-solid fa-piggy-bank"></i>   
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaPlane /></h2>
+
                 <p className="font-bold text-blue-950">Bank Solvency</p>
                 <p className="font-small font-light">Bank solvency ensures a bank&apos;s financial stability, allowing it to honor obligations, protect deposits, and absorb losses, ensuring confidence for customers.</p>
               </div>
@@ -294,9 +284,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                <i className="fa-solid fa-ticket"></i>                
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaUserGroup /></h2>
+
                 <p className="font-bold text-blue-950">Air Ticket</p>
                 <p className="font-small font-light">
                 An air ticket is a purchased document granting permission for an individual to board a specific flight at a designated time and date.
@@ -319,9 +308,8 @@ const HomeServices = () => {
   }}
 >
               <div className="card-body">
-                <h2 className="text-5xl text-red-700">
-                  <i className="fa-solid fa-calendar-check rotate-sideways"></i>
-                </h2>
+              <h2 className="text-3xl sm:text-5xl text-red-700 flex justify-center"><FaCreditCard /></h2>
+
                 <p className="font-bold text-blue-950">
                   Pre-Departure Guidance
                 </p>

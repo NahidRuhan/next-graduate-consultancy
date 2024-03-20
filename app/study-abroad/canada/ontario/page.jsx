@@ -22,15 +22,15 @@ const Ontario = async () => {
             <div className="flex items-center flex-col lg:flex-row">
                 <Image src={ontario1} alt="" />
                 <div className="">
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Apart from Toronto, Ontario also has prominent cities of Canada in its premises such as Ottawa, London, Thunder Bay, Hamilton, Kingston, Windsor and Sudbury.</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Seneca College</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Centennial College </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Humber College</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> George Brown College </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Algoma University</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Cambrian College</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Colleges of the province are There is no doubt, why Ontario holds a special place in the heart of students as it has everything a student desires.</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Service sector contributes for the largest amount of employment nearly 79%</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Apart from Toronto, Ontario also has prominent cities of Canada in its premises such as Ottawa, London, Thunder Bay, Hamilton, Kingston, Windsor and Sudbury.</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Seneca College</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Centennial College </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Humber College</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> George Brown College </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Algoma University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Cambrian College</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Colleges of the province are There is no doubt, why Ontario holds a special place in the heart of students as it has everything a student desires.</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Service sector contributes for the largest amount of employment nearly 79%</p>
                 </div>
             </div>
         </div>

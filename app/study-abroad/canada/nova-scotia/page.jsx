@@ -23,12 +23,12 @@ const NovaScotia = async () => {
                 <Image className="w-1/2" src={nova} alt="" />
                 <div className="flex flex-col gap-2">
                     <p>Construction and manufacturing have the highest contribution in terms of GDP of Nova Scotia. With low accommodation cost and high-quality educational institutions i.e., Nova scotia proves to be a smooth transitional and comfortable province for international students.</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Dalhousie university</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Cape Breton university </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Nova scotia community college</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> St. Francis Xavier University</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Acadia University</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> NSCAD University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Dalhousie university</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Cape Breton university </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Nova scotia community college</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> St. Francis Xavier University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Acadia University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> NSCAD University</p>
 
                 </div>
             </div>

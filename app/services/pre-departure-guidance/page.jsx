@@ -2,6 +2,7 @@ import banner from "@/public/assets/service/Pre-departure Guidance/banner.jpg";
 import guidance1 from "@/public/assets/service/Pre-departure Guidance/1.jpg";
 import guidance2 from "@/public/assets/service/Pre-departure Guidance/2.jpg";
 import Image from "next/image";
+import { FaAngleRight } from "react-icons/fa6";
 
 const PreDeparture = () => {
   return (
@@ -71,52 +72,51 @@ const PreDeparture = () => {
           <h1 className="font-bold py-5 text-xl lg:text-3xl">
             The Pre-Departure guidelines include the following
           </h1>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Shopping
-            List
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span>
+            Shopping List
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Travel
-            Documents Required for Student Visa
-          </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i>{" "}
+                    <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span>Travel
+            Documents Required for Student Visa</p>
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span>{" "}
             Navigating Through the Airport at Your Arrival Destination
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i>{" "}
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span>{" "}
             Accommodation
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i>{" "}
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span>{" "}
             Transportation and Driving License
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Mobile
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Mobile
             Phone and Internet
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Opening a
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Opening a
             Bank Account
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Health
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Health
             Insurance
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Legal
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Legal
             Assistance for Work Permit and Permanent Residence Permit
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Contacts
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Contacts
             of our students in the country they are travelling.
           </p>
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i> Also, we
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span> Also, we
             give their contacts to our representative in that country.
           </p>{" "}
-          <p>
-            <i className="fa-solid fa-chevron-right text-red-500"></i>{" "}
+          <p className="flex items-center gap-2">
+            <span className="text-red-500"><FaAngleRight /></span>{" "}
             Accommodation
           </p>
         </div>

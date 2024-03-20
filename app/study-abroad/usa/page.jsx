@@ -226,14 +226,14 @@ const Usa = () => {
             <p className="pb-5">Before going any further with the procedure of applying students need to be aware of the major two intakes of USA (Fall & Spring). To apply for any of these intakes, you need to start following all the steps 1 year before the intake.</p>
             <div className="flex items-center flex-col-reverse lg:flex-row">
                 <div className="flex flex-col gap-5">
-                    <p><i className="fa-solid fa-check text-red-500"></i> Shortlist a few colleges/universities</p>
-                    <p><i className="fa-solid fa-check text-red-500"></i> Look for courses that fit your requirements</p>
-                    <p><i className="fa-solid fa-check text-red-500"></i> Prepare and give the entrance exams such as GMAT, IELTS, TOEFL, GRE, etc.</p>
-                    <p><i className="fa-solid fa-check text-red-500"></i> Contact your current college/university/school for a letter of recommendation (LOR)</p>
-                    <p><i className="fa-solid fa-check text-red-500"></i> Make a personalized Statement of Purpose (SOP)</p>
-                    <p><i className="fa-solid fa-check text-red-500"></i> Apply to the shortlisted colleges/universities.</p>
-                    <p><i className="fa-solid fa-check text-red-500"></i> Attend an online video interview which would be conducted by the university you have applied to. (If applicable)</p>
-                    <p><i className="fa-solid fa-check text-red-500"></i> You will receive an offer letter from the respective college/university. After receiving the offer letter, you can apply for a student visa.</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Shortlist a few colleges/universities</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Look for courses that fit your requirements</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Prepare and give the entrance exams such as GMAT, IELTS, TOEFL, GRE, etc.</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Contact your current college/university/school for a letter of recommendation (LOR)</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Make a personalized Statement of Purpose (SOP)</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Apply to the shortlisted colleges/universities.</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Attend an online video interview which would be conducted by the university you have applied to. (If applicable)</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> You will receive an offer letter from the respective college/university. After receiving the offer letter, you can apply for a student visa.</p>
                 </div>
                 <Image className="w-1/2" src={usa5} alt="" />
             </div>

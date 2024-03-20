@@ -22,12 +22,12 @@ const NovaScotia = async () => {
                 <div className="flex flex-col gap-2">
                     <p>Students who are fond of living in a desirable small town then they should consider Fredericton, the capital of New Brunswick, as an obvious choice.</p>
                     <p>Also, educational institutions like university of New Brunswick rank among the top learning institutions of the world. Sectors like agriculture and forestry are the most developed in New Brunswick.</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> New Brunswick College of Craft and Design</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> New Brunswick Community College </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Crandall University</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Mount Allison University</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Oulton College</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Université De Moncton</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> New Brunswick College of Craft and Design</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> New Brunswick Community College </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Crandall University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Mount Allison University</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Oulton College</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Université De Moncton</p>
 
                 </div>
             </div>

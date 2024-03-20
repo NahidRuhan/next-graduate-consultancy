@@ -26,11 +26,11 @@ const Manitoba = async () => {
                     <p>Apart from this, there are also many beautiful, world class museums and of course top rank university.  </p>
                     <h2 className="font-bold">Some popular cities of Manitoba</h2>
                     <p>These features make Manitoba a complete package of a roller coaster ride for students. </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Winnipeg</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Brandon </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Springfield</p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Steinbach </p>
-                    <p><i className="fa-solid fa-angles-right text-black"></i> Winkler</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Winnipeg</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Brandon </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Springfield</p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Steinbach </p>
+                    <p className="flex items-center gap-2"><span className="text-black"><FaAngleRight /></span> Winkler</p>
 
                 </div>
             </div>

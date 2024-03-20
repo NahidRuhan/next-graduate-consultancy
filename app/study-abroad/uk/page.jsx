@@ -1,6 +1,6 @@
 import { FaDonate, FaTableTennis } from "react-icons/fa";
 import { BsBank, BsFillTelephoneFill } from "react-icons/bs";
-import { FaAppStoreIos, FaBriefcaseMedical, FaHotel, FaPills, FaTruck } from "react-icons/fa6";
+import { FaAppStoreIos, FaBriefcaseMedical, FaCheck, FaHotel, FaPills, FaTruck } from "react-icons/fa6";
 import { MdMediation } from "react-icons/md";
 import Marquee from "react-fast-marquee";
 import Accordion from '@mui/material/Accordion';
@@ -104,11 +104,11 @@ const Uk = () => {
                     <Image src={ukl} alt="" />
                     <div className="flex flex-col gap-3">
 
-                        <p><i className="fa-solid fa-check text-red-500"></i> The UK is one of the top destinations to study worldwide. It is rich in history and has high class institutions in every corner of the country.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> The United Kingdom has much to offer international students on par with other English-speaking countries.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Compatibility in the education system enables you to study in a way that fulfills your career aspirations.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> The study destination where international students have continued their presence as the number of students has increased over the years.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> The UK welcomes students from India, China, Hong Kong, France, the US, Germany, Malaysia, the Republic of Ireland, Greece and more.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> The UK is one of the top destinations to study worldwide. It is rich in history and has high class institutions in every corner of the country.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> The United Kingdom has much to offer international students on par with other English-speaking countries.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Compatibility in the education system enables you to study in a way that fulfills your career aspirations.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> The study destination where international students have continued their presence as the number of students has increased over the years.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> The UK welcomes students from India, China, Hong Kong, France, the US, Germany, Malaysia, the Republic of Ireland, Greece and more.</p>
 
                     </div>
                 </div>
@@ -120,11 +120,11 @@ const Uk = () => {
 
                     <div className="flex flex-col gap-3">
 
-                        <p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">International Recognition:</span>UK is home to four of the world’s top ten universities and has the second highest number of Nobel Prize winners in the world.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Affordable Education:</span> Undergraduate degrees in UK are of three to four years and a master’s program is typically between one and two years, saving your education & living costs.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Education Recognition:</span> Canada has one of the world’s best and superior quality of education system having international recognition and outstanding programs in diverse subject areas.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> <span className="font-extrabold">Scholarships:</span> Institutions in UK offers variety of scholarships, financial aid, grants and bursaries to international students.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> UK offers well-researched and diverse range of courses in globally ranked institutions preparing students for the corporate world.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span>International Recognition: is home to four of the world’s top ten universities and has the second highest number of Nobel Prize winners in the world.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span>Affordable Education: Undergraduate degrees in UK are of three to four years and a master’s program is typically between one and two years, saving your education & living costs.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span>Education Recognition: Canada has one of the world’s best and superior quality of education system having international recognition and outstanding programs in diverse subject areas.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span>Scholarships: Institutions in UK offers variety of scholarships, financial aid, grants and bursaries to international students.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> UK offers well-researched and diverse range of courses in globally ranked institutions preparing students for the corporate world.</p>
 
                     </div>
                     <Image src={uk2} alt="" />
@@ -142,16 +142,16 @@ const Uk = () => {
                 <div className="flex items-center flex-col lg:flex-row">
                     <Image src={uk3} alt="" />
                     <div className="flex flex-col gap-3 py-5">
-                    <p><i className="fa-solid fa-check text-red-500"></i> The UK is one of the top destinations to study worldwide. It is rich in history and has high class institutions in every corner of the country.</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Register with DEC and talk with an experienced Education Counsellor</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Choose a course according to your areas of interest</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Shortlist a university that suits your preferences, entry requirements and budget</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Apply for the UK university with our assistance</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Get counselling on visa from our experts</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Pay financial deposits</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Get help for the credibility interview from our experts</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Apply for your visa with our help</p>
-                        <p><i className="fa-solid fa-check text-red-500"></i> Attend our pre-departure session and get ready to depart for UK</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> The UK is one of the top destinations to study worldwide. It is rich in history and has high class institutions in every corner of the country.</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Register with DEC and talk with an experienced Education Counsellor</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Choose a course according to your areas of interest</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Shortlist a university that suits your preferences, entry requirements and budget</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Apply for the UK university with our assistance</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Get counselling on visa from our experts</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Pay financial deposits</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Get help for the credibility interview from our experts</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Apply for your visa with our help</p>
+                        <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Attend our pre-departure session and get ready to depart for UK</p>
                     </div>
                 </div>
             </section>
@@ -165,22 +165,22 @@ const Uk = () => {
                 <h1 className="font-bold text-3xl py-10 text-center lg:text-left">Job After Study in the UK</h1>
                 <div className="flex flex-col lg:flex-row justify-between gap-3 lg:gap-20 max-w-4xl mx-auto">
                     <div className="flex flex-col gap-3">
-                    <p><i className="fa-solid fa-check text-black"></i> Software Developers</p>
-                    <p><i className="fa-solid fa-check text-black"></i> IT Consultants</p>
-                    <p><i className="fa-solid fa-check text-black"></i> Aerospace Engineers</p>
-                    <p><i className="fa-solid fa-check text-black"></i> IT Manager</p>
-                    <p><i className="fa-solid fa-check text-black"></i> Chief Accountants</p>
-                    <p><i className="fa-solid fa-check text-black"></i> Financial Controllers</p>
-                    <p><i className="fa-solid fa-check text-black"></i> CEO and Managing Directors</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Software Developers</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> IT Consultants</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Aerospace Engineers</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> IT Manager</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Chief Accountants</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Financial Controllers</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> CEO and Managing Directors</p>
                     </div>
                     <div className="flex flex-col gap-3">
-                    <p><i className="fa-solid fa-check text-black"></i> Devops Engineers</p>
-                    <p><i className="fa-solid fa-check text-black"></i> Project Managers</p>
-                    <p><i className="fa-solid fa-check text-black"></i> Data Scientists</p>
-                    <p><i className="fa-solid fa-check text-black"></i> Strategists</p>
-                    <p><i className="fa-solid fa-check text-black"></i> Portfolio Managers</p>
-                    <p><i className="fa-solid fa-check text-black"></i> Fiscal Managers</p>
-                    <p><i className="fa-solid fa-check text-black"></i> HR Managers</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Devops Engineers</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Project Managers</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Data Scientists</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Strategists</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Portfolio Managers</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> Fiscal Managers</p>
+                    <p className='flex items-center gap-2'><span className="text-red-500"><FaCheck /></span> HR Managers</p>
                     </div>
                     
                 </div>
