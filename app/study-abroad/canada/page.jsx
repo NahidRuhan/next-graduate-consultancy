@@ -304,7 +304,7 @@ const Canada = () => {
                 <h1 className='font-bold text-3xl py-10 text-center lg:text-left'>Admission Procedure</h1>
                 <p className='pb-10'>First milestone in the path of becoming an international student is getting admission in a DLI approved Canadian university/college. This process is majorly divided into four steps:</p>
 
-                {/* <div>
+                <div>
 
                 <Accordion>
         <AccordionSummary
@@ -312,7 +312,9 @@ const Canada = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography><p className='font-bold'>Choosing a university/college & course</p></Typography>
+<Typography variant="h6" fontWeight="bold">
+            Choosing a university/college & cours
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -327,22 +329,35 @@ const Canada = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography><p className='font-bold'>Prepare all the Documents</p></Typography>
+<Typography variant="h6" fontWeight="bold">
+            Prepare all the Documents
+            </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-
-            <p>Students need to make a checklist of few documents which needed to be collected from their current or last attended institution. Apart from this student must have a proof of result of an international English language exam such as IELTS, PTE, Duolingo etc.</p>
-
-            <h2 className='font-bold'>List of documents</h2>
-            <div>
-                <p><i className="fa-solid fa-chevron-right text-red-500"></i> All the recent academic transcript</p>
-                <p><i className="fa-solid fa-chevron-right text-red-500"></i> 3 Letter of recommendation from faculties (2 Teachers, 1 Head of department)</p>
-                <p><i className="fa-solid fa-chevron-right text-red-500"></i> Proof of English proficiency test</p>
-                <p><i className="fa-solid fa-chevron-right text-red-500"></i> Statement of purpose</p>
-            </div>
-
-          </Typography>
+        <Typography variant="body1" fontWeight="normal">
+    Students need to make a checklist of few documents which needed to be collected from their current or last attended institution. Apart from this student must have a proof of result of an international English language exam such as IELTS, PTE, Duolingo etc.
+  </Typography>
+  <Typography variant="h6" className="font-bold">
+    List of documents
+  </Typography>
+  <ul>
+    <li>
+      <i className="fa-solid fa-chevron-right text-red-500"></i>
+      <Typography variant="body2">All the recent academic transcript</Typography>
+    </li>
+    <li>
+      <i className="fa-solid fa-chevron-right text-red-500"></i>
+      <Typography variant="body2">3 Letter of recommendation from faculties (2 Teachers, 1 Head of department)</Typography>
+    </li>
+    <li>
+      <i className="fa-solid fa-chevron-right text-red-500"></i>
+      <Typography variant="body2">Proof of English proficiency test</Typography>
+    </li>
+    <li>
+      <i className="fa-solid fa-chevron-right text-red-500"></i>
+      <Typography variant="body2">Statement of purpose</Typography>
+    </li>
+  </ul>
         </AccordionDetails>
       </Accordion>
 
@@ -352,7 +367,9 @@ const Canada = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography><p className='font-bold'>Submit Your Application</p></Typography>
+<Typography variant="h6" fontWeight="bold">
+            Submit Your Application
+            </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -367,7 +384,9 @@ const Canada = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography><p className='font-bold'>Pay the fees and GIC</p></Typography>
+<Typography variant="h6" fontWeight="bold">
+            Pay the fees and GIC
+            </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -376,7 +395,7 @@ const Canada = () => {
         </AccordionDetails>
       </Accordion>
 
-                </div> */}
+                </div>
             </div>
 
             <div>
