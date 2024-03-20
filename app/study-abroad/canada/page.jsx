@@ -1,5 +1,3 @@
-"use client"
-
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -12,14 +10,13 @@ import canada2 from "../../../public/assets/study-abroad/canada/2.png"
 import canada3 from "../../../public/assets/study-abroad/canada/3.jpg"
 import { BsBank } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
-import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 
 const Canada = () => {
 
-    const router = useRouter();
     
     return (
         <div className='cen'>
@@ -417,160 +414,211 @@ const Canada = () => {
                 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
 
-                <div className="province-card card-6">
+                <Link href='/study-abroad/canada/british-columbia'>
+                  <div className="province-card card-6">
 
-<div className="flex justify-center flex-col">
+  <div className="flex justify-center flex-col">
 
-  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-    <BsBank className="text-white text-4xl" />
+    <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+      <BsBank className="text-white text-4xl" />
+    </div>
+
+    <div>
+      <p className="font-extrabold text-2xl py-5">BRITISH COLUMBIA</p>
+      <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
+    </div>
+
+  </div>           
+
   </div>
+                </Link>
 
-  <div>
-    <p className="font-extrabold text-2xl py-5">BRITISH COLUMBIA</p>
-    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/british-columbia')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
+
+                <Link href='/study-abroad/canada/quebec'>
+  <div className="province-card card-2">
+
+    <div className="flex justify-center flex-col">
+
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+        <BsBank className="text-white text-4xl" />
+      </div>
+
+      <div>
+        <p className="font-extrabold text-2xl py-5">QUEBEC</p>
+        <div className='flex justify-center gap-3'>
+          <span className='text-xl'>Click</span>
+          <button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button>
+        </div>
+      </div>
+
+    </div>           
+
   </div>
+</Link>
+                    
 
-</div>           
+<Link href='/study-abroad/canada/ontario'>
+  <div className="province-card card-1">
 
-</div>
+    <div className="flex justify-center flex-col">
 
-                <div className="province-card card-2">
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+        <BsBank className="text-white text-4xl" />
+      </div>
 
-                <div className="flex justify-center flex-col">
+      <div>
+        <p className="font-extrabold text-2xl py-5">ONTARIO</p>
+        <div className='flex justify-center gap-3'>
+          <span className='text-xl'>Click</span>
+          <button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button>
+        </div>
+      </div>
 
-                  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-                    <BsBank className="text-white text-4xl" />
-                  </div>
+    </div>           
 
-                  <div>
-                    <p className="font-extrabold text-2xl py-5">QUEBEC</p>
-                    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/quebec')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
-                  </div>
-
-              </div>           
-
-              </div>                    
-
-                <div className="province-card card-1">
-
-                <div className="flex justify-center flex-col">
-
-                  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-                    <BsBank className="text-white text-4xl" />
-                  </div>
-
-                  <div>
-                    <p className="font-extrabold text-2xl py-5">ONTARIO</p>
-                    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/ontario')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
-                  </div>
-
-              </div>           
-
-              </div>
+  </div>
+</Link>
 
 
-                <div className="province-card card-7">
 
-                <div className="flex justify-center flex-col">
+<Link href='/study-abroad/canada/newfoundland'>
+  <div className="province-card card-7">
 
-                  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-                    <BsBank className="text-white text-4xl" />
-                  </div>
+    <div className="flex justify-center flex-col">
 
-                  <div>
-                    <p className="font-extrabold text-2xl py-5">NEWFOUNDLAND AND LABRADOR</p>
-                    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/newfoundland')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
-                  </div>
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+        <BsBank className="text-white text-4xl" />
+      </div>
 
-              </div>           
+      <div>
+        <p className="font-extrabold text-2xl py-5">NEWFOUNDLAND AND LABRADOR</p>
+        <div className='flex justify-center gap-3'>
+          <span className='text-xl'>Click</span>
+          <button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button>
+        </div>
+      </div>
 
-              </div>
+    </div>           
 
-                <div className="province-card card-5">
-
-                <div className="flex justify-center flex-col">
-
-                  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-                    <BsBank className="text-white text-4xl" />
-                  </div>
-
-                  <div>
-                    <p className="font-extrabold text-2xl py-5">ALBERTA</p>
-                    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/alberta')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
-                  </div>
-
-              </div>           
-
-              </div>              
+  </div>
+</Link>
 
 
-                <div className="province-card card-3">
+<Link href='/study-abroad/canada/alberta'>
+  <div className="province-card card-5">
 
-                <div className="flex justify-center flex-col">
+    <div className="flex justify-center flex-col">
 
-                  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-                    <BsBank className="text-white text-4xl" />
-                  </div>
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+        <BsBank className="text-white text-4xl" />
+      </div>
 
-                  <div>
-                    <p className="font-extrabold text-2xl py-5">MANITOBA</p>
-                    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/manitoba')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
-                  </div>
+      <div>
+        <p className="font-extrabold text-2xl py-5">ALBERTA</p>
+        <div className='flex justify-center gap-3'>
+          <span className='text-xl'>Click</span>
+          <button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button>
+        </div>
+      </div>
 
-              </div>           
+    </div>           
 
-              </div>
+  </div>
+</Link>
+              
 
-                <div className="province-card card-9">
 
-                <div className="flex justify-center flex-col">
+<Link href='/study-abroad/canada/manitoba'>
+  <div className="province-card card-3">
 
-                  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-                    <BsBank className="text-white text-4xl" />
-                  </div>
+    <div className="flex justify-center flex-col">
 
-                  <div>
-                    <p className="font-extrabold text-2xl py-5">NEW BRUNSWICK</p>
-                    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/new-brunswick')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
-                  </div>
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+        <BsBank className="text-white text-4xl" />
+      </div>
 
-              </div>           
+      <div>
+        <p className="font-extrabold text-2xl py-5">MANITOBA</p>
+        <div className='flex justify-center gap-3'>
+          <span className='text-xl'>Click</span>
+          <button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button>
+        </div>
+      </div>
 
-              </div>              
+    </div>           
 
-                <div className="province-card card-8">
+  </div>
+</Link>
 
-                <div className="flex justify-center flex-col">
 
-                  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-                    <BsBank className="text-white text-4xl" />
-                  </div>
+<Link href='/study-abroad/canada/new-brunswick'>
+  <div className="province-card card-9">
 
-                  <div>
-                    <p className="font-extrabold text-2xl py-5">NOVA SCOTIA</p>
-                    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/nova-scotia')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
-                  </div>
+    <div className="flex justify-center flex-col">
 
-              </div>           
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+        <BsBank className="text-white text-4xl" />
+      </div>
 
-              </div>
+      <div>
+        <p className="font-extrabold text-2xl py-5">NEW BRUNSWICK</p>
+        <div className='flex justify-center gap-3'>
+          <span className='text-xl'>Click</span>
+          <button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button>
+        </div>
+      </div>
 
-                <div className="province-card card-4">
+    </div>           
 
-                <div className="flex justify-center flex-col">
+  </div>
+</Link>
+              
 
-                  <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
-                    <BsBank className="text-white text-4xl" />
-                  </div>
+<Link href='/study-abroad/canada/nova-scotia'>
+  <div className="province-card card-8">
 
-                  <div>
-                    <p className="font-extrabold text-2xl py-5">SASKATCHEWAN</p>
-                    <div className='flex justify-center gap-3'><span className='text-xl'>Click</span><button onClick={()=>{router.push('/study-abroad/canada/saskatchewan')}} className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button></div>
-                  </div>
+    <div className="flex justify-center flex-col">
 
-              </div>           
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+        <BsBank className="text-white text-4xl" />
+      </div>
 
-              </div>
+      <div>
+        <p className="font-extrabold text-2xl py-5">NOVA SCOTIA</p>
+        <div className='flex justify-center gap-3'>
+          <span className='text-xl'>Click</span>
+          <button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button>
+        </div>
+      </div>
+
+    </div>           
+
+  </div>
+</Link>
+
+
+<Link href='/study-abroad/canada/saskatchewan'>
+  <div className="province-card card-4">
+
+    <div className="flex justify-center flex-col">
+
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-logoRed">
+        <BsBank className="text-white text-4xl" />
+      </div>
+
+      <div>
+        <p className="font-extrabold text-2xl py-5">SASKATCHEWAN</p>
+        <div className='flex justify-center gap-3'>
+          <span className='text-xl'>Click</span>
+          <button className="bg-red-500 p-1 rounded-full text-xl"><FaArrowRight /></button>
+        </div>
+      </div>
+
+    </div>           
+
+  </div>
+</Link>
+
 
                 </div>
 
