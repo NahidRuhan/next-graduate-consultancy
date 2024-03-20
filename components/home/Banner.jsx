@@ -25,7 +25,7 @@ const Banner = () => {
   return (
     <>
       <div className="carousel w-screen lg:w-full relative">
-        <div id="item1" className={`carousel-item w-full -full ${currentSlide === 1 ? 'block' : 'hidden'}`}>
+        <div id="item1" className={`carousel-item w-full h-full ${currentSlide === 1 ? 'block' : 'hidden'}`}>
           <Image src={banner1} className="w-full h-full" alt="Banner 1" />
           <div className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white">
             <p className="text-base md:text-2xl lg:text-6xl font-extrabold w-2/3">Greetings! Your Visa Adventure Begins Here</p>

@@ -11,9 +11,11 @@ const Footer = () => {
     return (
         <div className="pt-10">
             <footer className="footer p-10 bg-logoRed text-white">
-  <nav className="flex flex-col gap-5 text-center items-center">
-    <Image className="w-45" src={logo} alt="" />
-    <p className="md:w-80 text-justify text-sm">Graduate Consultancy is your education advisor, dedicated to supporting enthusiastic students every step of the way. We provide essential guidance for education counseling, application, admissions, and visa processing for studying abroad in Canada.</p>
+  <nav className="flex flex-col text-center items-center">
+    <div>
+      <Image className="" src={logo} alt="" />
+    </div>
+    <p className="md:w-80 text-justify text-sm py-5">Graduate Consultancy is your education advisor, dedicated to supporting enthusiastic students every step of the way. We provide essential guidance for education counseling, application, admissions, and visa processing for studying abroad in Canada.</p>
   </nav>
   <nav>
     <header className="text-2xl text-[#fff] font-bold">Bangladesh Office</header> 
