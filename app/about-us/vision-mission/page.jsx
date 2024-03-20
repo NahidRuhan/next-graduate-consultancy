@@ -1,7 +1,7 @@
 import Image from "next/image";
 import banner from "@/public/assets/about-us/visionBanner.webp"
-import vision1 from "@/public/assets/about-us/Vision1.png"
-import vision2 from "@/public/assets/about-us/Vision2.png"
+import vision1 from "@/public/assets/about-us/1.png"
+import vision2 from "@/public/assets/about-us/2.png"
 
 const VisionMission = () => {
     return (
