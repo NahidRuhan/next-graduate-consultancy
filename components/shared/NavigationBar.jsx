@@ -47,7 +47,7 @@ const NavigationBar = () => {
       {name:'Air Ticket', path: '/services/air-ticket'},
       {name:'Pre-Departure Guidance', path: '/services/pre-departure-guidance'},
     ] },
-      { title: 'Study Abroad', path: '/study-abroad', hasSubNav: true, subNav: [{name: 'Canada', path:'/canada'}, {name:'USA', path: '/usa'}, {name:'UK', path:'/uk'}, {name:'Australia', path:'/australia'}] },
+      { title: 'Study Abroad', path: '/study-abroad', hasSubNav: true, subNav: [{name: 'Canada', path:'/study-abroad/canada'}, {name:'USA', path: '/study-abroad/usa'}, {name:'UK', path:'/study-abroad/uk'}, {name:'Australia', path:'/study-abroad/australia'}] },
       { title: 'Study Canada', path: '/study-canada', hasSubNav: false },
       { title: 'About Us', path: '/about-us', hasSubNav: true, subNav: [{name:'About Graduate Consultancy', path:'/'}, {name: 'Our Vision & Mission', path: '/vision-mission'}, {name: 'Meet Our Team', path: '/meet-our-team'}] },
       { title: 'Contact Us', path: '/contact-us', hasSubNav: false },
