@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-// import logo from '@/public/assets/Logo.svg'
 import logo from '../../public/assets/Logo.svg'
 import canadaFlag from "../../public/assets/canadaFlag.png"
 import USAFlag from "../../public/assets/usaFlag.png"

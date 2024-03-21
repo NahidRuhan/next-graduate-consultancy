@@ -202,60 +202,35 @@ const NavigationBar = () => {
               </ul> */}
               <ul style={{ position: 'fixed', top: '60px', left: '69%', transform: 'translateX(-50%)' }} className="dropdown-content menu xl:menu-horizontal lg:min-w-max bg-base-200">
                 <li className="border-r border-r-1 shadow-sm border-slate-300">
-                  <a className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown}>
-                    <Link href="/services/career-counseling">
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/career-counseling">
                                   Career Counseling
                     </Link>
-                  </a>
-                  <a className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown}>
-                    <Link href="/services/university-selection">
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/university-selection">
                                     University Selection
                     </Link>
-                  </a>
-                  <a className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown}>
-                    <Link href="/services/visa-document">Visa Document</Link>
-                  </a>
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown} href="/services/visa-document">Visa Document</Link>
                 </li>
 
                 <li className="border-r border-r-1 shadow-sm border-slate-300">
-                  <a className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown}>
-                    <Link href="/services/student-visa">Student Visa</Link>
-                  </a>
-                  <a className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown}>
-                    <Link href="/services/sop-resume-prep">
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/student-visa">Student Visa</Link>
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/sop-resume-prep">
                       SOP|Resume Preparation
                     </Link>
-                  </a>
-                  <a className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown}>
-                    <Link href="/services/spouse-visa">Spouse Visa</Link>
-                  </a>
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown} href="/services/spouse-visa">Spouse Visa</Link>
                 </li>
 
                 <li className="border-r border-r-1 shadow-sm border-slate-300">
-                  <a className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown}>
-                    <Link href="/services/visitor-visa">Visitor Visa</Link>
-                  </a>
-                  <a className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown}>
-                    <Link href="/services/pr-immigration">PR|Immigration Visa</Link>
-                  </a>
-                  <a className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown}>
-                    <Link href="/services/accommodation">Accommodation</Link>
-                  </a>
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/visitor-visa">Visitor Visa</Link>
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/pr-immigration">PR|Immigration Visa</Link>
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown} href="/services/accommodation">Accommodation</Link>
                 </li>
 
                 <li className="shadow-sm">
-                  <a className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown}>
-                    <Link href="/services/bank-solvency">Bank Solvency</Link>
-                  </a>
-                  <a className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown}>
-                  <Link href="/services/air-ticket">Air Ticket</Link>
-                  </a>
-                  <a className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown}>
-                    <Link href="/services/pre-departure-guidance">
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/bank-solvency">Bank Solvency</Link>
+                  <Link className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown} href="/services/air-ticket">Air Ticket</Link>
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/pre-departure-guidance">
                       Pre-Departure Guidance
-                    </Link>
-                  </a>
-                  
+                    </Link>                  
                 </li>
                 
               </ul> 
