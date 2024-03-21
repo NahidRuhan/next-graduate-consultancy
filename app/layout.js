@@ -1,8 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/shared/Footer";
-import Nav from "@/components/shared/Nav";
+// import Nav from "@/components/shared/Nav";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import NavigationBar from "@/components/shared/NavigationBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +16,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav></Nav>
+        {/* <Nav></Nav> */}
+        <NavigationBar></NavigationBar>
         {children}
         <Footer></Footer>
       </body>
