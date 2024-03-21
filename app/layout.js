@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
         <NavigationBar></NavigationBar>
         {children}
         <Footer></Footer>
+        <SpeedInsights />
       </body>
     </html>
   );
