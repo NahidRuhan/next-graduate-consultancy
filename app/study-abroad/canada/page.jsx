@@ -1,3 +1,5 @@
+"use client"
+ 
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -436,6 +438,7 @@ const Canada = () => {
 
 
                 <Link href='/study-abroad/canada/quebec'>
+
   <div className="province-card card-2">
 
     <div className="flex justify-center flex-col">
