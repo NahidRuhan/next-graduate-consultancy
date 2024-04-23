@@ -45,17 +45,17 @@ const page = () => {
             <li>5 Online Mock Tests</li>
             <li>Speaking Pre-Mock Tests</li>
             <li>e-books, pdf lessons, slides</li>
-            <li>Brainstorming in every topic of Task-2 in IELTS Writing</li>
+            <li>IELTS Writing এর Task-2 এর সকল ধরনের topic এর brainstorming</li>
             <li>Best guidelines to achieve 7 in IELTS Exam</li>
         </ul>
       </div>
       <div className="space-y-5 text-[#666]">
         <h1 className="pl-5">Who is this course for:- </h1>
         <ul className="list-disc pl-10">
-            <li>Those who want to study abroad</li>
-            <li>Those who want to migrate abroad</li>
-            <li>Those who want to work at top companies in country which requires good English speaking skill</li>
-            <li>Those who want test their English speaking skill by sitting for IELTS</li>
+            <li>যারা দেশের বাইরে পড়তে যেতে চান</li>
+            <li>যারা দেশের বাইরে migrate করতে চান</li>
+            <li>যারা দেশে খুব ভালো Company গুলোতে কাজ করতে চান</li>
+            <li>যারা নিজের ইংরেজী Skill যাচাই করতে IELTS পরীক্ষা দিতে চান</li>
         </ul>
       </div>
       </div>
