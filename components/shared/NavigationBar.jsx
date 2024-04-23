@@ -51,6 +51,7 @@ const NavigationBar = () => {
       { title: 'Study Canada', path: '/study-abroad/canada', hasSubNav: false },
       { title: 'About Us', path: '/about-us', hasSubNav: true, subNav: [{name:'About Graduate Consultancy', path:'/about-us'}, {name: 'Our Vision & Mission', path: '/about-us/vision-mission'}, {name: 'Meet Our Team', path: '/meet-our-team'}] },
       { title: 'Contact Us', path: '/contact-us', hasSubNav: false },
+      { title: 'IELTS', path: '/ielts', hasSubNav: false },
     ];
   
   const toggleSubMenu = (title) => {
@@ -151,55 +152,6 @@ const NavigationBar = () => {
                   Services <i className="fa-solid fa-sort-down"></i>
                 </Link>
               </label>
-              {/* <ul
-                tabIndex={0}
-                className="dropdown-content menu xl:menu-horizontal lg:min-w-max z-[1] ml-1 shadow bg-base-100 w-52"
-              >
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/career-counseling">
-                    Career Counseling
-                  </Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/university-selection">
-                    University Selection
-                  </Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/visa-document">Visa Document</Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/student-visa">Student Visa</Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/sop-resume-prep">
-                    SOP|Resume Preparation
-                  </Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/spouse-visa">Spouse Visa</Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/visitor-visa">Visitor Visa</Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/pr-immigration">PR|Immigration Visa</Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:rounded-none hover:text-white" href="/services/accommodation">Accommodation</Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/bank-solvency">Bank Solvency</Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/air-ticket">Air Ticket</Link>
-                </li>
-                <li onClick={closeDropdown}>
-                  <Link className="hover:bg-logoRed hover:text-white hover:rounded-none" href="/services/pre-departure-guidance">
-                    Pre-Departure Guidance
-                  </Link>
-                </li>
-              </ul> */}
               <ul style={{ position: 'fixed', top: '60px', left: '69%', transform: 'translateX(-50%)' }} className="dropdown-content menu xl:menu-horizontal lg:min-w-max bg-base-200">
                 <li className="border-r border-r-1 shadow-sm border-slate-300">
                     <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/career-counseling">
@@ -225,10 +177,10 @@ const NavigationBar = () => {
                     <Link className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown} href="/services/accommodation">Accommodation</Link>
                 </li>
 
-                <li className="shadow-sm">
+                <li className="border-r border-r-1 shadow-sm border-slate-300">
                     <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/bank-solvency">Bank Solvency</Link>
-                  <Link className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown} href="/services/air-ticket">Air Ticket</Link>
-                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/pre-departure-guidance">
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none border-b-2 border-gray-300" onClick={closeDropdown} href="/services/air-ticket">Air Ticket</Link>
+                    <Link className="hover:bg-logoRed hover:text-white rounded-none" onClick={closeDropdown} href="/services/pre-departure-guidance">
                       Pre-Departure Guidance
                     </Link>                  
                 </li>
@@ -310,6 +262,15 @@ const NavigationBar = () => {
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
                 <Link className="hover:border-b-4 hover:border-white" href="/contact-us">Contact us</Link>
+              </label>
+            </div>
+            <div className="dropdown dropdown-hover">
+              <label
+                onClick={closeDropdown}
+                tabIndex={0}
+                className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
+              >
+                <Link className="hover:border-b-4 hover:border-white" href="/ielts">IELTS</Link>
               </label>
             </div>
           </div>
