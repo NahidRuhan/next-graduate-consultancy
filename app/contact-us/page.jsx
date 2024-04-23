@@ -44,7 +44,7 @@ const ContactUs = () => {
           <div className="card lg:card-side bg-base-100 shadow-xl rounded-box flex gap-3">
             <div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.4703659968923!2d90.4233264202831!3d23.796931647538397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c767f5f1e359%3A0xe2c21d160dda922f!2sMostafa%20Arcade!5e0!3m2!1sen!2sbd!4v1707638616526!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.609161367068!2d90.4234178741163!3d23.796928178638726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217a3e0ecaa3ef77%3A0xef11e141ff55a42b!2sGraduate%20Consultancy!5e0!3m2!1sen!2sbd!4v1713880317990!5m2!1sen!2sbd"
                 width="400"
                 height="450"
                 style={{ border: 0 }}

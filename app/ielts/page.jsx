@@ -35,7 +35,7 @@ const page = () => {
         <p className="text-sm">A complete course for IELTS preparation</p>
       </div>
       <div className="space-y-5 text-[#666]">
-        <h1 className=" pl-5">What&apos;s in this course :-</h1>
+        <h1 className=" pl-5">কোর্সটিতে যা যা থাকছেঃ </h1>
         <ul className="list-disc pl-10">
             <li>Foundation Classes- 5 classes</li>
             <li>Reading Module- 8 classes</li>
@@ -50,7 +50,7 @@ const page = () => {
         </ul>
       </div>
       <div className="space-y-5 text-[#666]">
-        <h1 className="pl-5">Who is this course for:- </h1>
+        <h1 className="pl-5">কোর্সটি কাদের জন্যঃ </h1>
         <ul className="list-disc pl-10">
             <li>যারা দেশের বাইরে পড়তে যেতে চান</li>
             <li>যারা দেশের বাইরে migrate করতে চান</li>
