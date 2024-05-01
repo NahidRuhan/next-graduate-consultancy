@@ -4,6 +4,7 @@ import Footer from "@/components/shared/Footer";
 // import Nav from "@/components/shared/Nav";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import NavigationBar from "@/components/shared/NavigationBar";
+import Nav2 from "@/components/shared/Nav2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme="light">
       <body className={inter.className}>
         {/* <Nav></Nav> */}
+        <Nav2></Nav2>
         <NavigationBar></NavigationBar>
         {children}
         <Footer></Footer>

@@ -9,29 +9,42 @@ const Socials = () => {
                 <h1 className="text-white pb-5">Address:</h1>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.609161367068!2d90.4234178741163!3d23.796928178638726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217a3e0ecaa3ef77%3A0xef11e141ff55a42b!2sGraduate%20Consultancy!5e0!3m2!1sen!2sbd!4v1713880317990!5m2!1sen!2sbd" width="400" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                <div className="lg:hidden flex-col p-5 bg-logoRed">
+                <h1 className="text-white pb-5">Address:</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.609161367068!2d90.4234178741163!3d23.796928178638726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217a3e0ecaa3ef77%3A0xef11e141ff55a42b!2sGraduate%20Consultancy!5e0!3m2!1sen!2sbd!4v1713880317990!5m2!1sen!2sbd" width="300" height="350" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
-<div className="bg-logoRed p-5">
+<div className="bg-logoRed p-5 lg:hidden">
     <h1 className="text-white pb-5">Latest News</h1>
-            <div
-          className="fb-page w-80"
-          data-href="https://www.facebook.com/graduateconsultancy/?viewas=100000686899395&amp;show_switched_toast=0&amp;show_invite_to_follow=0&amp;show_switched_tooltip=0&amp;show_podcast_settings=0&amp;show_community_review_changes=0&amp;show_community_rollback=0&amp;show_follower_visibility_disclosure=0"
-          data-tabs="timeline"
-          data-width="400"
-          data-height="450"
-          data-small-header="false"
-          data-adapt-container-width="true"
-          data-hide-cover="false"
-          data-show-facepile="true"
-        >
-          <blockquote
-            cite="https://www.facebook.com/graduateconsultancy/?viewas=100000686899395&amp;show_switched_toast=0&amp;show_invite_to_follow=0&amp;show_switched_tooltip=0&amp;show_podcast_settings=0&amp;show_community_review_changes=0&amp;show_community_rollback=0&amp;show_follower_visibility_disclosure=0"
-            className="fb-xfbml-parse-ignore"
-          >
-            <a href="https://www.facebook.com/graduateconsultancy/?viewas=100000686899395&amp;show_switched_toast=0&amp;show_invite_to_follow=0&amp;show_switched_tooltip=0&amp;show_podcast_settings=0&amp;show_community_review_changes=0&amp;show_community_rollback=0&amp;show_follower_visibility_disclosure=0">
-              Graduate Consultancy
-            </a>
-          </blockquote>
-        </div>    
+    <iframe
+  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgraduateconsultancy&tabs=timeline&width=400&height=450&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+  width="300"
+  height="350"
+  style={{
+    border: "none",
+    overflow: "hidden",
+    scrolling: "no",
+    frameBorder: "0",
+    allowFullScreen: true,
+    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+  }}
+/>
+</div>
+<div className="bg-logoRed p-5 hidden lg:flex flex-col">
+    <h1 className="text-white pb-5">Latest News</h1>
+    <iframe
+  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgraduateconsultancy&tabs=timeline&width=400&height=450&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+  width="400"
+  height="450"
+  style={{
+    border: "none",
+    overflow: "hidden",
+    scrolling: "no",
+    frameBorder: "0",
+    allowFullScreen: true,
+    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+  }}
+/>
 </div>
 
                     

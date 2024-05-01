@@ -5,10 +5,14 @@ import HomeAbout from "@/components/home/HomeAbout";
 import HomePartner from "@/components/home/HomePartner";
 import HomeServices from "@/components/home/HomeServices";
 import Socials from "@/components/home/Socials";
+import Modal from "./Modal";
+import Promotional from "./Promotional";
 
 const Home = () => {
+
     return (
         <div>
+            <Modal></Modal>
             <Banner></Banner>
             <Country></Country>
             <HomeAbout></HomeAbout>
@@ -16,6 +20,7 @@ const Home = () => {
             <HomePartner></HomePartner>
             <AnimatedCount></AnimatedCount>
             <Socials></Socials>
+            <Promotional></Promotional>
         </div>
     );
 };
