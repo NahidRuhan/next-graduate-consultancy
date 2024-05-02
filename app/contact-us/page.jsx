@@ -41,40 +41,7 @@ const ContactUs = () => {
           </h1>
         </div>
         <div className="lg:flex lg:justify-around">
-          <div className="card lg:card-side bg-base-100 shadow-xl rounded-box flex gap-3">
-            <div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.609161367068!2d90.4234178741163!3d23.796928178638726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217a3e0ecaa3ef77%3A0xef11e141ff55a42b!2sGraduate%20Consultancy!5e0!3m2!1sen!2sbd!4v1713880317990!5m2!1sen!2sbd"
-                width="400"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-            <div className="card-body bg-logoRed text-white rounded-btn">
-              <h2 className="card-title text-white">Head Office:</h2>
-              <p>
-                House 192, Road 2, Avenue 3,<br></br>
-                Mirpur DOHS, Dhaka 1216
-              </p>
 
-              <h2 className="text-white font-bold">Call Us at:</h2>
-              <p>
-                (+880)1330993330 <br></br>(+880)1330993332
-              </p>
-              <p>
-                (+880)1330993334 <br></br>(+880)1330993335
-              </p>
-
-              <h2 className="text-white font-bold">Mail Us at:</h2>
-              <p>
-                info@graduateconsultancy.com <br></br>
-                canada@graduateconsultancy.com
-              </p>
-            </div>
-          </div>
           <div className="lg:w-1/2 lg:ml-4 p-5 rounded-md bg-gray-100 hover:bg-red">
             <form
               onSubmit={handleSubmit}
@@ -170,6 +137,51 @@ const ContactUs = () => {
                 Submit
               </button>
             </form>
+          </div>
+          <div className="card lg:card-side bg-base-100 shadow-xl rounded-box flex gap-3">
+            <div className="hidden lg:flex">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.609161367068!2d90.4234178741163!3d23.796928178638726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217a3e0ecaa3ef77%3A0xef11e141ff55a42b!2sGraduate%20Consultancy!5e0!3m2!1sen!2sbd!4v1713880317990!5m2!1sen!2sbd"
+                width="400"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div className="flex justify-center lg:hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.609161367068!2d90.4234178741163!3d23.796928178638726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217a3e0ecaa3ef77%3A0xef11e141ff55a42b!2sGraduate%20Consultancy!5e0!3m2!1sen!2sbd!4v1713880317990!5m2!1sen!2sbd"
+                width="300"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div className="hidden lg:flex card-body bg-logoRed text-white rounded-btn">
+              <h2 className="card-title text-white">Head Office:</h2>
+              <p>
+                House 192, Road 2, Avenue 3,<br></br>
+                Mirpur DOHS, Dhaka 1216
+              </p>
+
+              <h2 className="text-white font-bold">Call Us at:</h2>
+              <p>
+                (+880)1330993330 <br></br>(+880)1330993332
+              </p>
+              <p>
+                (+880)1330993334 <br></br>(+880)1330993335
+              </p>
+
+              <h2 className="text-white font-bold">Mail Us at:</h2>
+              <p>
+                info@graduateconsultancy.com <br></br>
+                canada@graduateconsultancy.com
+              </p>
+            </div>
           </div>
         </div>
       </div>

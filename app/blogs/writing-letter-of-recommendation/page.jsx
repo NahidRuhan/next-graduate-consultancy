@@ -4,7 +4,7 @@ const Page = () => {
     return (
         <div className="bg-gray-100 font-serif text-base text-gray-800 leading-relaxed">
             <div className="container mx-auto py-8 px-4">
-                <h1 className="text-3xl font-bold mb-6">Everything You Need to Know About Writing a Letter of Recommendation</h1>
+                <h1 className="text-4xl font-bold mb-6">Everything You Need to Know About Writing a Letter of Recommendation</h1>
 
                 <p className="mb-6">Are you looking to boost your chances of getting into your dream college or landing your dream job? Well, a well-crafted Letter of Recommendation (LOA) can make all the difference. In this blog post, we'll delve into everything you need to know about writing a persuasive letter of recommendation that will leave a lasting impression.</p>
 

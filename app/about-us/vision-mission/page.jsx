@@ -10,7 +10,7 @@ const VisionMission = () => {
         <div>
             <Image className="w-full" src={banner} alt="" />
         </div>
-        <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">  
+        <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 text-justify">  
         <h1 className="font-bold text-3xl pb-10 text-center lg:text-left">Our Vision</h1>
         <div className="flex flex-col-reverse lg:flex-row">
             <Image src={vision1} alt="" />
@@ -23,7 +23,7 @@ const VisionMission = () => {
         </div>
 
         <h1 className="mt-10 font-bold text-3xl text-center lg:text-left">Our mission</h1>
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col gap-5 lg:flex-row">
         <div className="flex flex-col gap-5 pt-20">
         <p>We work endlessly to provide elite services and assist all students in achieving success in their studies and building their future by placing students in courses at leading institutions that are in the best interest of the student or their profile. </p>
                 <p>We are truly concerned about students and thus provide innovative and high-quality study options to international destinations with superior customer service, quality, and commitment to promoting growth through superior ethical representation. </p>

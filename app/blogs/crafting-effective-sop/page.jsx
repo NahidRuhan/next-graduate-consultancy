@@ -4,7 +4,7 @@ const Page = () => {
     return (
         <div className="bg-gray-100 font-serif text-base text-gray-800 leading-relaxed">
             <div className="container mx-auto py-8 px-4">
-                <h1 className="text-3xl font-bold mb-6">Crafting an Effective Statement of Purpose (SOP): Dos and Don’ts</h1>
+                <h1 className="text-4xl font-bold mb-6">Crafting an Effective Statement of Purpose (SOP): Dos and Don’ts</h1>
 
                 <p className="mb-6">When it comes to applying for higher education or seeking a job, one of the essential documents you need is a Statement of Purpose (SOP). Your SOP is a reflection of who you are, your goals, and what you can bring to the table. Craft an effective SOP to stand out among the competition and showcase your unique qualities. In this blog post, we will delve into the dos and don’ts of writing a Statement of Purpose to help you create a compelling and impactful document that will leave a lasting impression.</p>
 

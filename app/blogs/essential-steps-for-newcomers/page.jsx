@@ -4,7 +4,7 @@ const Page = () => {
     return (
         <div className="bg-gray-100 font-serif text-base text-gray-800 leading-relaxed">
             <div className="container mx-auto py-8 px-4">
-                <h1 className="text-3xl font-bold mb-6">Essential Steps for Newcomers to Canada: Your Arrival Checklist</h1>
+                <h1 className="text-4xl font-bold mb-6">Essential Steps for Newcomers to Canada: Your Arrival Checklist</h1>
 
                 <p className="mb-6">Moving to a new country can be both exciting and overwhelming, especially when it comes to starting a new life in Canada. As you step foot in this diverse and welcoming country, there are several important things you should do to ensure a smooth transition and make the most of your initial days. Let's explore the first things you should do after landing in Canada and the important tips to help you settle down comfortably.</p>
 

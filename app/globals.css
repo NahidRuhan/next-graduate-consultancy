@@ -444,3 +444,11 @@ td{
 .banner-carousel-item.hidden {
   opacity: 0;
 }
+
+
+
+.image-container {
+  height: 800px;
+  width: 100%; /* or a specific width */
+  object-fit: cover; /* or cover */
+}

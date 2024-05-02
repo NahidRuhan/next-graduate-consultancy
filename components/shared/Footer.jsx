@@ -13,7 +13,7 @@ const Footer = () => {
             <footer className="footer p-10 bg-logoRed text-white">
   <nav className="flex flex-col text-center items-center">
     <div>
-      <Image className="" src={logo} alt="" />
+      <Image className="w-1/2" src={logo} alt="" />
     </div>
     <p className="md:w-80 text-justify text-sm py-5">Graduate Consultancy is your education advisor, dedicated to supporting enthusiastic students every step of the way. We provide essential guidance for education counseling, application, admissions, and visa processing for studying abroad in Canada.</p>
   </nav>

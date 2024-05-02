@@ -4,7 +4,7 @@ const Page = () => {
     return (
         <div className="bg-gray-100 font-serif text-base text-gray-800 leading-relaxed">
             <div className="container mx-auto py-8 px-4">
-                <h1 className="text-3xl font-bold mb-6">Essential Steps to Select the University</h1>
+                <h1 className="text-4xl font-bold mb-6">Essential Steps to Select the University</h1>
 
                 <p className="mb-6 flex flex-col"><span className="text-2xl font-bold">Selecting the Appropriate Course:</span> Before exploring universities, it's crucial to give preference to the course you want to study. In many cases, the course itself might be more critical than the university. Identify your interests, strengths, and career aspirations to select a course that resonates with you. Ensure that the course curriculum aligns with your academic goals and future career prospects.</p>
 

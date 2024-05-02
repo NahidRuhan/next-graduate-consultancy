@@ -11,6 +11,7 @@ import UKFlag from "../../public/assets/ukFlag.png";
 import { useRouter } from "next/navigation";
 import { IoIosMenu } from "react-icons/io";
 import { FaHeadphonesSimple } from "react-icons/fa6";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const NavigationBar = () => {
   const router = useRouter();
@@ -200,7 +201,7 @@ const NavigationBar = () => {
                   className="hover:border-b-4 hover:border-white"
                   href="/services"
                 >
-                  Services <i className="fa-solid fa-sort-down"></i>
+                  <p className="flex items-center gap-1 text-white font-poppins font-semibold xl:text-lg">Services<span><MdOutlineKeyboardArrowDown /></span></p> 
                 </Link>
               </label>
               <ul
@@ -321,7 +322,7 @@ const NavigationBar = () => {
                   className="hover:border-b-4 hover:border-white"
                   href="/study-abroad"
                 >
-                  Study Abroad <i className="fa-solid fa-sort-down"></i>
+                  <p className="flex items-center gap-1 text-white font-poppins font-semibold xl:text-lg">Study Abroad<span><MdOutlineKeyboardArrowDown /></span></p> 
                 </Link>
               </label>
               <ul
@@ -399,7 +400,7 @@ const NavigationBar = () => {
                   className="hover:border-b-4 hover:border-white"
                   href="/about-us"
                 >
-                  About Us <i className="fa-solid fa-sort-down"></i>
+                  <p className="flex items-center gap-1 text-white font-poppins font-semibold xl:text-lg">About Us<span><MdOutlineKeyboardArrowDown /></span></p> 
                 </Link>
               </label>
               <ul

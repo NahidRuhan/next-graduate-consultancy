@@ -26,28 +26,28 @@ const Banner = () => {
     <>
       <div className="carousel w-screen lg:w-full relative">
         <div id="item1" className={`carousel-item w-full h-full ${currentSlide === 1 ? 'block' : 'hidden'}`}>
-          <Image src={banner1} className="w-full h-full" alt="Banner 1" />
+          <Image src={banner1} className="w-full h-full lg:h-screen object-cover" alt="Banner 1" />
           <div className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white">
             <p className="text-base md:text-2xl lg:text-6xl font-extrabold w-2/3">Greetings! Your Visa Adventure Begins Here</p>
             <Link href="/contact-us"><button className='btn btn-sm my-3 bg-logoRed text-white'>Inquiry now <span className='text-2xl my-1'><FaArrowAltCircleRight /></span></button></Link>
           </div>
         </div>
         <div id="item2" className={`carousel-item w-full h-full ${currentSlide === 2 ? 'block' : 'hidden'}`}>
-          <Image src={banner2} className="w-full h-full" alt="Banner 2" />
+          <Image src={banner2} className="w-full h-full lg:h-screen object-cover" alt="Banner 2" />
           <div className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white">
             <p className="text-base md:text-2xl lg:text-6xl font-extrabold w-2/3">Build an Unlimited Study Abroad Career with Graduate Consultancy</p>
             <Link href="/contact-us"><button className='btn btn-sm my-3 bg-logoRed text-white'>Inquiry now <span className='text-2xl my-1'><FaArrowAltCircleRight /></span></button></Link>
           </div>
         </div>
         <div id="item3" className={`carousel-item w-full h-full ${currentSlide === 3 ? 'block' : 'hidden'}`}>
-          <Image src={banner3} className="w-full h-full" alt="Banner 3" />
+          <Image src={banner3} className="w-full h-full lg:h-screen object-cover" alt="Banner 3" />
           <div className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white">
             <p className="text-base md:text-2xl lg:text-6xl font-extrabold w-2/3">Prepare Today, Succeed Tomorrow; Visa Expert at Your Service</p>
             <Link href="/contact-us"><button className='btn btn-sm my-3 bg-logoRed text-white'>Inquiry now <span className='text-2xl my-1'><FaArrowAltCircleRight /></span></button></Link>
           </div>
         </div>
         <div id="item4" className={`carousel-item w-full h-full ${currentSlide === 4 ? 'block' : 'hidden'}`}>
-          <Image src={banner4} className="w-full h-full" alt="Banner 4" />
+          <Image src={banner4} className="w-full h-full lg:h-screen object-cover" alt="Banner 4" />
           <div className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white">
             <p className="text-base md:text-2xl lg:text-6xl font-extrabold">Student Visa for Canada</p>
             <Link href="/contact-us"><button className='btn btn-sm my-3 bg-logoRed text-white'>Inquiry now <span className='text-2xl my-1'><FaArrowAltCircleRight /></span></button></Link>

@@ -7,6 +7,7 @@ import HomeServices from "@/components/home/HomeServices";
 import Socials from "@/components/home/Socials";
 import Modal from "./Modal";
 import Promotional from "./Promotional";
+import Banner2 from "./Banner2";
 
 const Home = () => {
 

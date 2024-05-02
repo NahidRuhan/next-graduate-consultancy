@@ -4,7 +4,7 @@ const Page = () => {
     return (
         <div className="bg-gray-100 font-serif text-base text-gray-800 leading-relaxed">
             <div className="container mx-auto py-8 px-4">
-                <h1 className="text-3xl font-bold mb-6">Exploring the Excellence of Canada's Education System</h1>
+                <h1 className="text-4xl font-bold mb-6">Exploring the Excellence of Canada's Education System</h1>
 
                 <p className="mb-6">Canada’s education system is renowned worldwide for its high quality and effectiveness. Many people wonder why Canada’s education system is regarded as one of the best in the world and what sets it apart from other systems. In this blog post, we will delve into the reasons behind Canada's educational excellence and explore what makes it truly exceptional.</p>
 

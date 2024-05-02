@@ -16,7 +16,7 @@ const AboutUs = () => {
           </h1>
         </div>
 
-        <div className="">
+        <div className=" text-justify">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="col-span-2">
               <p className="my-10">

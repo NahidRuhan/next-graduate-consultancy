@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { useEffect } from "react";
-import namrata from "../../public/assets/ielts/ielts.jpg"
+import popup from "../../public/assets/home/popup.jpg"
 import Link from "next/link";
 
 const Modal = () => {
@@ -21,13 +21,8 @@ const Modal = () => {
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <Image src={namrata}></Image>
-    <div className="flex justify-center py-5">
-            <Link href='https://forms.gle/Zv4BY5SQtBacjwWX6' target="_blank"><button className="btn max-w-max mx-auto bg-logoRed text-white">
-              Enroll Now
-            </button></Link>
-            
-          </div>
+    <Image src={popup}></Image>
+
   </div>
 </dialog>
     </div>
