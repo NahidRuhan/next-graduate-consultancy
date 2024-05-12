@@ -3,7 +3,7 @@
 import Image from "next/image";
 import banner from "@/public/assets/contact-us/Contact.jpg";
 import React, { useState } from "react";
-import postData from "@/utils/api";
+import postData from "../../utils/API";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
