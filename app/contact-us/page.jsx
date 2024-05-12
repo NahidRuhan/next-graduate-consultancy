@@ -3,6 +3,7 @@
 import Image from "next/image";
 import banner from "@/public/assets/contact-us/Contact.jpg";
 import React, { useState } from "react";
+import postData from "@/utils/api";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -21,11 +22,17 @@ const ContactUs = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log("Form submitted:", formData);
-    // You can add your logic for form submission, API calls, etc.
+  
+    try {
+      const response = await postData(formData);
+      console.log('Form submitted successfully:', response.data);
+      // Handle successful form submission
+    } catch (error) {
+      console.error('Error submitting form:', error.response.data);
+      // Handle error during form submission
+    }
   };
 
   return (
