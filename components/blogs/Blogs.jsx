@@ -362,6 +362,70 @@ const Blogs = () => {
         </div></Link></div>
 
 
+        <div><Link href="/blogs/best-course"><div className="flex flex-col lg:flex-row gap-5 w-full lg:w-4/6 p-5 bg-slate-100 items-center hover:cursor-pointer">
+          <div className="basis-1/3">
+            <Image src={namrata}></Image>
+          </div>
+          <div className="basis-2/3 space-y-3">
+            <div className="flex gap-5">
+              <p className="flex items-center gap-2">
+                <span className="text-logoRed">
+                  <SlCalender />
+                </span>
+                28 April, 2024
+              </p>
+              <p className="flex items-center gap-2">
+                <span className="text-logoRed">
+                  <CiShoppingTag />
+                </span>
+                Canada Center
+              </p>
+            </div>
+            <h1 className="text-xl font-bold">Best Courses to Study in USA for Bangladeshi Students: Top Options</h1>
+            <p className="text-lg font-normal text-[#555]">
+            Are you a Bangladeshi student looking to pursue higher education in the United States? With its world-class universities,             </p>
+            <div className="flex gap-3">
+              <p className="font-bold">Read More</p>
+              <button>
+                <FaArrowCircleRight />
+              </button>
+            </div>
+          </div>
+        </div></Link></div>
+
+
+        <div><Link href="/blogs/gpa-requirements"><div className="flex flex-col lg:flex-row gap-5 w-full lg:w-4/6 p-5 bg-slate-100 items-center hover:cursor-pointer">
+          <div className="basis-1/3">
+            <Image src={namrata}></Image>
+          </div>
+          <div className="basis-2/3 space-y-3">
+            <div className="flex gap-5">
+              <p className="flex items-center gap-2">
+                <span className="text-logoRed">
+                  <SlCalender />
+                </span>
+                28 April, 2024
+              </p>
+              <p className="flex items-center gap-2">
+                <span className="text-logoRed">
+                  <CiShoppingTag />
+                </span>
+                Canada Center
+              </p>
+            </div>
+            <h1 className="text-xl font-bold">How much of a GPA is accepted for study in the USA from Bangladesh?</h1>
+            <p className="text-lg font-normal text-[#555]">
+            Studying in the United States is a dream for many students around the world, including those from Bangladesh. With its world-renowned universities and diverse cultures, the U.S. offers a plethora of opportunities for higher education            </p>
+            <div className="flex gap-3">
+              <p className="font-bold">Read More</p>
+              <button>
+                <FaArrowCircleRight />
+              </button>
+            </div>
+          </div>
+        </div></Link></div>
+
+
 
       </div>
 
