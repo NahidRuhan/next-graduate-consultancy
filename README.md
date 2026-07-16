@@ -21,6 +21,21 @@ This repository contains the source code for the Graduate Consultancy website. D
 - **Language:** TypeScript / JavaScript
 - **Deployment:** [Vercel](https://vercel.com/) (Recommended)
 
+## 📦 Dependencies
+
+The application relies on a modern Next.js ecosystem, combining Material UI and Tailwind CSS for its interface.
+
+### Core Dependencies
+- **Core Framework:** `next` (14.1.3), `react` (^18), `react-dom` (^18)
+- **UI & Styling:** `@mui/material` (^5.15.14), `@emotion/react` (^11.11.4), `@emotion/styled` (^11.11.0), `@mui/styled-engine-sc` (^6.0.0-alpha.18), `styled-components` (^6.1.8)
+- **Icons & Visuals:** `@mui/icons-material` (^5.15.14), `react-icons` (^5.0.1), `swiper` (^11.1.1), `react-fast-marquee` (^1.6.4)
+- **Utilities & Data Fetching:** `axios` (^1.6.8), `react-intersection-observer` (^9.8.1), `use-count-up` (^3.0.1)
+- **Integrations & Analytics:** `react-facebook` (^9.0.12), `@vercel/speed-insights` (^1.0.10)
+
+### Development Dependencies
+- **Styling Tooling:** `tailwindcss` (^3.3.0), `postcss` (^8), `autoprefixer` (^10.0.1)
+- **UI Components:** `daisyui` (^4.7.3)
+
 
 
 ## 🤝 Contributing
