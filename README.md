@@ -36,6 +36,41 @@ The application relies on a modern Next.js ecosystem, combining Material UI and 
 - **Styling Tooling:** `tailwindcss` (^3.3.0), `postcss` (^8), `autoprefixer` (^10.0.1)
 - **UI Components:** `daisyui` (^4.7.3)
 
+  ## 🚀 Local Development Setup
+
+Follow these steps to set up the project on your local machine.
+
+### Prerequisites
+- **Node.js** (v18 or higher recommended)
+- **npm**, **yarn**, or **pnpm** (npm is used in these examples)
+
+### 1. Clone the Repository
+First, clone the repository to your local machine and navigate into the project directory:
+```bash
+git clone https://github.com/your-username/graduate-consultancy.git
+cd graduate-consultancy
+```
+
+### 2. Install Dependencies
+Install all required packages defined in the `package.json`:
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+Launch the Next.js development server:
+```bash
+npm run dev
+```
+Once the server starts, open [http://localhost:3000](http://localhost:3000) in your browser to view the application. The page will auto-reload when you make changes to the code.
+
+### 4. Build for Production (Optional)
+To test the optimized production build locally:
+```bash
+npm run build
+npm run start
+```
+
 
 
 ## 🤝 Contributing
